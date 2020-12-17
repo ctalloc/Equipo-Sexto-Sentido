@@ -92,6 +92,7 @@
   line-height: 1.88;
   letter-spacing: normal;
   text-align: center;
+  color: var(--aqua);
 }
 .abouttext {
   width: 290px;
@@ -113,6 +114,7 @@
 .fortalezasydebilidades {
   width: 320px;
   height: 579px;
+  background-color: #b8b8b9
 }
 .fortalezastitle {
   width: 290px;
@@ -128,6 +130,7 @@
   line-height: 2.05;
   letter-spacing: normal;
   text-align: center;
+  color: var(--blue-green)
 } 
 .fortalezastext {
   width: 290px;
@@ -156,6 +159,7 @@
   line-height: 2.05;
   letter-spacing: normal;
   text-align: center;
+  color: var(--blue-green)
 }
 .debilidadestext {
   width: 290px;
