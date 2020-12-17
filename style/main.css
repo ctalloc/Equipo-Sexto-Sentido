@@ -1,15 +1,77 @@
-.footer{
-    font-family:'Open Sans';
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 320px;
-    height: 250px;
-    margin: 2px 2px 2px 5px;
-    padding: 30px 74px 45px;
-    border: solid 1px #b8b8b9;
-    background-color: var(--white);
-    }
+/*HEADER*/
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.h1header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 320px;
+  height: 60px;
+  opacity: 0.95;
+  background-color: #099d8d; /*var(--blue-green);*/
+}
+
+.h1text {
+  width: 320px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: white /*var(--white)*/;
+}
+
+.navclass {
+  width: 320px;
+  height: 45px;
+  opacity: 0.9;
+  background-color: #14d9c4 /*var(--aqua)*/;
+}
+
+.ulheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-inline-start: 0px;
+  padding-left: 0;
+}
+
+.list {
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--white);
+}
+
+.hero {
+  width: 320px;
+  margin: 0 0 46px;
+  padding: 0 0 316px;
+}
+
+/* FOOTER */
+.footer {
+  font-family: "Open Sans";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 320px;
+  height: 250px;
+  margin: 2px 2px 2px 5px;
+  padding: 30px 74px 45px;
+  border: solid 1px #b8b8b9;
+  background-color: var(--white);
+}
 
 .copyright {
   width: 172px;
@@ -26,32 +88,30 @@
   color: #b8b8b9;
 }
 .navfooter {
-    width: 114px;
-    height: 60px;
-    margin: 20px 29px 30px;
-    opacity: 0.75;
-   
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    text-align: center;
-    color: #54585a;
-  }
-  .logofooter {
-    width: 115.9px;
-    height: 45px;
-    margin: 30px 28.1px 0 28px;
-  }
-  .ulnav{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding-left: 0;
-  }
-  .listfooter {
-      list-style-type: none;
-     
-  }
+  width: 114px;
+  height: 60px;
+  margin: 20px 29px 30px;
+  opacity: 0.75;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
+.logofooter {
+  width: 115.9px;
+  height: 45px;
+  margin: 30px 28.1px 0 28px;
+}
+.ulnav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+}
+.listfooter {
+  list-style-type: none;
+}
