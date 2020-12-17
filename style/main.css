@@ -2,6 +2,8 @@
   --blue-green: #099d8d;
   --white: white;
   --aqua: #14d9c4;
+  --black: black;
+  --ligth-grey-blue: #b8b8b9;
  }
 
 /*HEADER*/
@@ -9,6 +11,7 @@
 .header {
   display: flex;
   flex-direction: column;
+  width: 320px;
 }
 .h1header {
   display: flex;
@@ -16,14 +19,12 @@
   justify-content: center;
   align-content: center;
   width: 320px;
-  height: 60px;
-  opacity: 0.95;
+    opacity: 0.95;
   background-color: var(--blue-green);
 }
 
 .h1text {
   width: 320px;
-  height: 60px;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
@@ -35,7 +36,6 @@
 
 .navclass {
   width: 320px;
-  height: 45px;
   opacity: 0.9;
   background-color: var(--aqua);
 }
@@ -44,7 +44,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-inline-start: 0px;
   padding-left: 0;
 }
 
@@ -59,10 +58,22 @@
   color: var(--white);
 }
 
+.refcolor {
+  color: var(--white);
+}
+
 .hero {
   width: 320px;
-  margin: 0 0 46px;
-  padding: 0 0 316px;
+  height: 250px;
+}
+
+.imghero {
+  width: 100vw;
+  background-color: tomato;
+}
+
+.slogan {
+  width: 100%;
 }
 /* ABOUT US*/
 .about {
@@ -73,7 +84,7 @@
   width: 89px;
   height: 45px;
   margin: 0 99.5px 15px 101.5px;
-  font-family: ;
+  font-family:'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
@@ -87,7 +98,7 @@
   height: 384px;
   margin-left: 15px;
   margin-right: 15px;
-  font-family: ;
+  font-family: 'Open Sans', sans-serif;;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
