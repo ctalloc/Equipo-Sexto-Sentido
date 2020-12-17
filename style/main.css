@@ -58,6 +58,38 @@
   margin: 0 0 46px;
   padding: 0 0 316px;
 }
+/* ABOUT US*/
+.about {
+  width: 320px;
+  height: 504px;
+}
+.aboutheadtext {
+  width: 89px;
+  height: 45px;
+  margin: 0 99.5px 15px 101.5px;
+  font-family: ;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+}
+.abouttext {
+  width: 290px;
+  height: 230px;
+  margin: 15px 0 0;
+  font-family: ;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
 
 /* FOOTER */
 .footer {
