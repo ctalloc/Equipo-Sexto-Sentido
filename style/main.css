@@ -1,3 +1,9 @@
+:root {
+  --blue-green: #099d8d;
+  --white: white;
+  --aqua: #14d9c4;
+ }
+
 /*HEADER*/
 
 .header {
@@ -12,7 +18,7 @@
   width: 320px;
   height: 60px;
   opacity: 0.95;
-  background-color: #099d8d; /*var(--blue-green);*/
+  background-color: var(--blue-green);
 }
 
 .h1text {
@@ -24,14 +30,14 @@
   font-style: normal;
   line-height: 1.88;
   letter-spacing: normal;
-  color: white /*var(--white)*/;
+  color: var(--white);
 }
 
 .navclass {
   width: 320px;
   height: 45px;
   opacity: 0.9;
-  background-color: #14d9c4 /*var(--aqua)*/;
+  background-color: var(--aqua);
 }
 
 .ulheader {
