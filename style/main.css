@@ -6,6 +6,11 @@
   --ligth-grey-blue: #b8b8b9;
  }
 
+ @font-face {
+  font-family: "Awesome Font";
+  src: url( "../assets/fa-brands-400.woff" );
+}
+
 /*HEADER*/
 
 .header {
