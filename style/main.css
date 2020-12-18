@@ -4,11 +4,11 @@
   --aqua: #14d9c4;
   --black: black;
   --ligth-grey-blue: #b8b8b9;
- }
+}
 
- @font-face {
+@font-face {
   font-family: "Awesome Font";
-  src: url( "../assets/fa-brands-400.woff" );
+  src: url("../assets/fa-brands-400.woff");
 }
 
 /*HEADER*/
@@ -24,7 +24,6 @@
   justify-content: center;
   align-content: center;
   width: 320px;
-    opacity: 0.95;
   background-color: var(--blue-green);
 }
 
@@ -34,7 +33,6 @@
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.88;
   letter-spacing: normal;
   color: var(--white);
 }
@@ -55,11 +53,6 @@
 .list {
   list-style-type: none;
   font-size: 15px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2;
-  letter-spacing: normal;
   color: var(--white);
 }
 
@@ -89,7 +82,7 @@
   width: 89px;
   height: 45px;
   margin: 0 99.5px 15px 101.5px;
-  font-family:'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
@@ -104,7 +97,7 @@
   height: 384px;
   margin-left: 15px;
   margin-right: 15px;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -119,14 +112,14 @@
 .fortalezasydebilidades {
   width: 320px;
   height: 579px;
-  background-color: #b8b8b9
+  background-color: #b8b8b9;
 }
 .fortalezastitle {
   width: 290px;
   height: 45px;
   margin-left: 15px;
   margin-right: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-size: 22px;
   font-weight: 500;
@@ -135,8 +128,8 @@
   line-height: 2.05;
   letter-spacing: normal;
   text-align: center;
-  color: var(--blue-green)
-} 
+  color: var(--blue-green);
+}
 .fortalezastext {
   width: 290px;
   height: 192px;
@@ -155,7 +148,7 @@
   height: 45px;
   margin-left: 15px;
   margin-right: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-size: 22px;
   font-weight: 500;
@@ -164,7 +157,7 @@
   line-height: 2.05;
   letter-spacing: normal;
   text-align: center;
-  color: var(--blue-green)
+  color: var(--blue-green);
 }
 .debilidadestext {
   width: 290px;
@@ -178,7 +171,7 @@
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
-}  
+}
 
 /* FOOTER */
 .footer {
