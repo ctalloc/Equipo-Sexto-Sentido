@@ -294,10 +294,9 @@ z-index: 1000;
   border: solid 5px rgba(0, 0, 0, 0.08);
 }
 .nombre-adalaber {
-  width: 147px;
+  width: 200px;
   height: 45px;
-  margin: 15px 70.5px 0 72.5px;
-  font-family: OpenSans;
+  margin: auto;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
@@ -310,8 +309,7 @@ z-index: 1000;
 .bio {
   width: 290px;
   height: 200px;
-  margin: 60px 0 15px;
-  font-family: OpenSans;
+  margin: 10px;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -320,4 +318,5 @@ z-index: 1000;
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
+  overflow: scroll;
 }
