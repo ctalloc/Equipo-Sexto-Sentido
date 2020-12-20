@@ -72,6 +72,8 @@
 /*HERO*/
 .div-hero {
   width: 320px;
+  /*hay que posicionar bien este elemento y especificar bien las medidas para que se coloquen automáticamente las demás secciones. La imagene stá superpuesta con el header */
+  height: 504px;
   
 }
 .img-hero {
@@ -104,40 +106,30 @@ z-index: 1000;
   position: relative;
 }
 /* ABOUT US*/
-.article-about {
-  position: relative;
-  top: 420px; /*¿Recalcular?*/
-}
 .about {
   width: 320px;
-  height: 504px;
+  position: relative;
 }
 .aboutheadtext {
   width: 89px;
   height: 45px;
-  margin: 0 99.5px 15px 101.5px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.88;
-  letter-spacing: normal;
   text-align: center;
   color: var(--aqua);
 }
 .abouttext {
   width: 290px;
-  height: 384px;
+  height: 230px;
   margin-left: 15px;
   margin-right: 15px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   text-align: center;
   color: #54585a;
 }
@@ -145,8 +137,8 @@ z-index: 1000;
 
 .fortalezasydebilidades {
   width: 320px;
-  height: 579px;
   background-color: #b8b8b9;
+  position: relative;
 }
 .fortalezastitle {
   width: 290px;
@@ -157,22 +149,16 @@ z-index: 1000;
   font-size: 16px;
   font-size: 22px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2.05;
-  letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
 }
 .fortalezastext {
   width: 290px;
-  height: 192px;
+  height: 142px;
   margin-left: 15px;
   margin-right: 15px;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
@@ -186,24 +172,17 @@ z-index: 1000;
   font-size: 16px;
   font-size: 22px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2.05;
-  letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
 }
 .debilidadestext {
   width: 290px;
-  height: 192px;
+  height: 142px;
   margin-left: 15px;
   margin-right: 15px;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   text-align: center;
 }
 
