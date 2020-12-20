@@ -201,7 +201,7 @@ z-index: 1000;
 }
 
 .copyright {
-  width: 172px;
+  width: 178px;
   height: 20px;
   margin: 0 0 20px;
   font-family: OpenSans;
@@ -215,6 +215,7 @@ z-index: 1000;
   color: #b8b8b9;
 }
 .navfooter {
+  text-decoration: none;
   width: 114px;
   height: 60px;
   margin: 20px 29px 30px;
@@ -226,7 +227,6 @@ z-index: 1000;
   line-height: 1.43;
   letter-spacing: normal;
   text-align: center;
-  color: #54585a;
 }
 .logofooter {
   width: 115.9px;
@@ -234,6 +234,8 @@ z-index: 1000;
   margin: 30px 28.1px 0 28px;
 }
 .ulnav {
+  width: 180px;
+  height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -242,6 +244,11 @@ z-index: 1000;
 .listfooter {
   list-style-type: none;
 }
+.afooter {
+  color:#54855a;
+}
+
+
 /*ADALABERS*/
 .section-adalabers {
   width: 320px;
