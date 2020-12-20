@@ -1,8 +1,12 @@
 * {
     font-family:'Open Sans', sans-serif;
     border: 1px solid black;
+    box-sizing: border-box; /*¿Quitar esto si alguna tiene un contenedor que no tenga border-box?*/
     margin: 0;
 }
 a {
     text-decoration: none;
+}
+.a:hover {
+    color: rgb(63, 63, 63);
 }

@@ -4,6 +4,7 @@
   --aqua: #14d9c4;
   --black: black;
   --ligth-grey-blue: #b8b8b9;
+  --grey-links: #727272;
 }
 
 @font-face {
@@ -13,173 +14,155 @@
 
 /*HEADER*/
 
-.header {
+.page-header {
   display: flex;
   flex-direction: column;
-  width: 320px;
-}
-.h1header {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-content: center;
-  width: 320px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.h1-div {
   background-color: var(--blue-green);
+  opacity: 0.95;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
-.h1text {
-  width: 320px;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
+.h1-text {
+  font-size: 1.2rem;
   color: var(--white);
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
-
-.navclass {
-  width: 320px;
-  opacity: 0.9;
+.nav-class {
+  width: 100%;
+  height: 45px;
   background-color: var(--aqua);
+  opacity: 0.95;
 }
-
-.ulheader {
+.ul-header {
+  height: 45px;
+  padding-left: 0;
+  margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-left: 0;
+  align-content: center;
 }
-
-.list {
+.nav-list {
   list-style-type: none;
-  font-size: 15px;
+  font-size: 1rem;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  text-decoration: none;
   color: var(--white);
 }
-
-.refcolor {
-  color: var(--white);
+.nav-links:hover {
+  color: var(--grey-links);
 }
-
-.hero {
-  width: 320px;
-  height: 250px;
-}
-
-.imghero {
-  width: 100vw;
-  background-color: tomato;
-}
-
-.slogan {
+/*HERO*/
+.div-hero {
   width: 100%;
+  /*hay que posicionar bien este elemento y especificar bien las medidas para que se coloquen automáticamente las demás secciones. La imagene stá superpuesta con el header */
+  height: 504px;
+  
+}
+.img-hero {
+  width: 100%;
+  height: 420px;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1000;
+  background-size: cover;
+}
+.div-slogan {
+  width: 100%;
+}
+.h2-slogan {
+font-size: 1.15rem;
+box-sizing: border-box;
+text-align: center;
+width: 290px;
+padding: 15px;
+margin: 15px;
+position: absolute;
+background-color: var(--white);
+top: 370px;
+left: 0px;
+z-index: 1000;
+}
+.h2-slogan .div-slogan {
+  text-align: center;
+  position: relative;
 }
 /* ABOUT US*/
 .about {
-  width: 320px;
-  height: 504px;
+  width: 100%;
+  position: relative;
 }
-.aboutheadtext {
-  width: 89px;
+.about-container {
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 0;
+}
+.equipo-title-container {
   height: 45px;
-  margin: 0 99.5px 15px 101.5px;
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.88;
-  letter-spacing: normal;
   text-align: center;
   color: var(--aqua);
 }
-.abouttext {
-  width: 290px;
-  height: 384px;
-  margin-left: 15px;
-  margin-right: 15px;
+.equipo-text {
+  width: 100%;
+  height: 230px;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
+  font-size: 1rem;
   line-height: 1.5;
-  letter-spacing: normal;
   text-align: center;
   color: #54585a;
 }
-/* FORTALEZAS Y DEBILIDADES */
-
 .fortalezasydebilidades {
-  width: 320px;
-  height: 579px;
+  width: 100%;
   background-color: #b8b8b9;
+  position: relative;
 }
-.fortalezastitle {
-  width: 290px;
-  height: 45px;
-  margin-left: 15px;
-  margin-right: 15px;
+.FyD-title-container {
+  width: 100%;
+  height: 10%;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-size: 22px;
+  font-size:  1.375rem;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2.05;
-  letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
 }
-.fortalezastext {
-  width: 290px;
-  height: 192px;
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
+.FyD-text-container {
+  width: 100%;
+  height: 40%;
+  font-size: 1rem;
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
 }
-.debilidadestitle {
-  width: 290px;
-  height: 45px;
-  margin-left: 15px;
-  margin-right: 15px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-size: 22px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.05;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--blue-green);
-}
-.debilidadestext {
-  width: 290px;
-  height: 192px;
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-}
-
 /* FOOTER */
 .footer {
   font-family: "Open Sans";
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 320px;
+  width: 100%;
   height: 250px;
   margin: 2px 2px 2px 5px;
   padding: 30px 74px 45px;
@@ -188,7 +171,7 @@
 }
 
 .copyright {
-  width: 172px;
+  width: 178px;
   height: 20px;
   margin: 0 0 20px;
   font-family: OpenSans;
@@ -202,6 +185,7 @@
   color: #b8b8b9;
 }
 .navfooter {
+  text-decoration: none;
   width: 114px;
   height: 60px;
   margin: 20px 29px 30px;
@@ -213,7 +197,6 @@
   line-height: 1.43;
   letter-spacing: normal;
   text-align: center;
-  color: #54585a;
 }
 .logofooter {
   width: 115.9px;
@@ -221,6 +204,8 @@
   margin: 30px 28.1px 0 28px;
 }
 .ulnav {
+  width: 180px;
+  height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -229,25 +214,24 @@
 .listfooter {
   list-style-type: none;
 }
+.afooter {
+  color:#54855a;
+}
+
+
 /*ADALABERS*/
 .section-adalabers {
-  width: 320px;
-  height: 2225px;
-  margin: 1083px 0 0;
+  width: 100%;
   padding: 30px 15px 45px;
   background-color: var(--white);
 }
 .quienes-somos {
-  width: 193px;
+  width: 100%;
   height: 45px;
-  margin: 0 47.5px 30px 49.5px;
   font-family: Rubik;
   font-size: 24px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.88;
-  letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
 }
@@ -255,7 +239,7 @@
 .imagen-adalaber {
   width: 180px;
   height: 180px;
-  margin: 0 55px 15px;
+  margin: auto;
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
 }
@@ -273,7 +257,6 @@
   color: var(--black);
 }
 .bio {
-  width: 290px;
   height: 200px;
   margin: 10px;
   font-size: 16px;
