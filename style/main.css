@@ -111,13 +111,14 @@ z-index: 1000;
   position: relative;
 }
 .about-container {
-  margin: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
   border: 0;
 }
 .equipo-title-container {
   height: 45px;
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.88;
   text-align: center;
@@ -127,7 +128,7 @@ z-index: 1000;
   width: 100%;
   height: 230px;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   text-align: center;
   color: #54585a;
@@ -142,7 +143,7 @@ z-index: 1000;
   height: 10%;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  font-size: 22px;
+  font-size:  1.375rem;
   font-weight: 500;
   line-height: 2.05;
   text-align: center;
@@ -151,7 +152,7 @@ z-index: 1000;
 .FyD-text-container {
   width: 100%;
   height: 40%;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
