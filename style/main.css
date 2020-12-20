@@ -18,14 +18,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 320px; /*100%*/
+  width: 100%;
   margin: 0px;
   padding: 0px;
 }
 .h1-div {
   background-color: var(--blue-green);
   opacity: 0.95;
-  width: 100%; /*¿Por qué no hereda el tamaño de .header?*/
+  width: 100%;
   height: 60px;
   display: flex;
   align-content: center;
@@ -41,7 +41,7 @@
   justify-content: center;
 }
 .nav-class {
-  width: 320px;
+  width: 100%;
   height: 45px;
   background-color: var(--aqua);
   opacity: 0.95;
@@ -71,13 +71,13 @@
 }
 /*HERO*/
 .div-hero {
-  width: 320px;
+  width: 100%;
   /*hay que posicionar bien este elemento y especificar bien las medidas para que se coloquen automáticamente las demás secciones. La imagene stá superpuesta con el header */
   height: 504px;
   
 }
 .img-hero {
-  width: 320px;
+  width: 100%;
   height: 420px;
   position: absolute;
   top:0;
@@ -86,7 +86,7 @@
   background-size: cover;
 }
 .div-slogan {
-  width: 320px;
+  width: 100%;
 }
 .h2-slogan {
 font-size: 1.15rem;
@@ -107,7 +107,7 @@ z-index: 1000;
 }
 /* ABOUT US*/
 .about {
-  width: 320px;
+  width: 100%;
   position: relative;
 }
 .about-container {
@@ -162,7 +162,7 @@ z-index: 1000;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 320px;
+  width: 100%;
   height: 250px;
   margin: 2px 2px 2px 5px;
   padding: 30px 74px 45px;
@@ -221,23 +221,17 @@ z-index: 1000;
 
 /*ADALABERS*/
 .section-adalabers {
-  width: 320px;
-  height: 2225px;
-  margin: 1083px 0 0;
+  width: 100%;
   padding: 30px 15px 45px;
   background-color: var(--white);
 }
 .quienes-somos {
-  width: 193px;
+  width: 100%;
   height: 45px;
-  margin: 0 47.5px 30px 49.5px;
   font-family: Rubik;
   font-size: 24px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.88;
-  letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
 }
@@ -245,7 +239,7 @@ z-index: 1000;
 .imagen-adalaber {
   width: 180px;
   height: 180px;
-  margin: 0 55px 15px;
+  margin: auto;
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
 }
@@ -263,7 +257,6 @@ z-index: 1000;
   color: var(--black);
 }
 .bio {
-  width: 290px;
   height: 200px;
   margin: 10px;
   font-size: 16px;
