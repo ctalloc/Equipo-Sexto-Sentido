@@ -175,7 +175,6 @@ background-color: var(--white);
 .imagen-adalaber {
   width: 180px;
   height: 180px;
-
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
 
@@ -185,11 +184,7 @@ background-color: var(--white);
   height: 45px;
   margin: auto;
   font-size: 20px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2.25;
-  letter-spacing: normal;
   text-align: center;
   color: var(--black);
 }
@@ -205,6 +200,10 @@ background-color: var(--white);
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.rrss{
+  color:var(--blue-green);
 }
 
 /* FOOTER */
