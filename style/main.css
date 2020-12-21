@@ -19,6 +19,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: fixed;
+  z-index: 1500;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -115,6 +117,7 @@ padding: 15px;
 .about {
   width: 100%;
   position: relative;
+  top: 90px;
 }
 .container {
   margin-left: 15px;
@@ -132,7 +135,6 @@ padding: 15px;
 }
 .equipo-text {
   width: 100%;
-  height: 230px;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
@@ -162,6 +164,59 @@ padding: 15px;
   letter-spacing: normal;
   text-align: center;
 }
+/*ADALABERS*/
+.section-adalabers {
+  width: 100%;
+  background-color: var(--white);
+  position: relative;
+  top: 90px;
+
+}
+.quienes-somos {
+  width: 100%;
+  height: 45px;
+  font-family: "Rubik";
+  font-size: 24px;
+  line-height: 1.88;
+  text-align: center;
+  color: var(--blue-green);
+}
+
+.imagen-adalaber {
+  width: 180px;
+  height: 180px;
+
+  border-radius: 4px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+
+}
+.nombre-adalaber {
+  width: 200px;
+  height: 45px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black);
+}
+.bio {
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #54585a;
+  
+}
+.article{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /* FOOTER */
 .footer {
   font-family: "Open Sans";
@@ -219,53 +274,3 @@ color:#54855a;
 }
 
 
-/*ADALABERS*/
-.section-adalabers {
-  width: 100%;
-  background-color: var(--white);
-
-}
-.quienes-somos {
-  width: 100%;
-  height: 45px;
-  font-family: "Rubik";
-  font-size: 24px;
-  line-height: 1.88;
-  text-align: center;
-  color: var(--blue-green);
-}
-
-.imagen-adalaber {
-  width: 180px;
-  height: 180px;
-
-  border-radius: 4px;
-  border: solid 5px rgba(0, 0, 0, 0.08);
-
-}
-.nombre-adalaber {
-  width: 200px;
-  height: 45px;
-  margin: auto;
-  font-size: 20px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.25;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--black);
-}
-.bio {
-  margin: 10px;
-  font-size: 16px;
-  text-align: center;
-  color: #54585a;
-  
-}
-.article{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
