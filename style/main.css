@@ -155,7 +155,8 @@ background-color: var(--white);
   line-height: 2.05;
   text-align: center;
   color: var(--blue-green);
-  margin
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .FyD-text-container {
   width: 100%;
