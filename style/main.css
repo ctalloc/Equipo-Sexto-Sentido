@@ -1,10 +1,11 @@
 :root {
-  --blue-green: #099d8d;
   --white: white;
   --aqua: #14d9c4;
+  --blue-green: #099d8d;
+  --ligth-grey-blue: #b8b8b9; 
+  --grey: #727272;
+  --dark-grey: #54585a;
   --black: black;
-  --ligth-grey-blue: #b8b8b9;
-  --grey-links: #727272;
 }
 
 @font-face {
@@ -24,7 +25,7 @@
 }
 .h1-div {
   background-color: var(--blue-green);
-  opacity: 0.95;
+  opacity: 0.90;
   width: 100%;
   height: 60px;
   display: flex;
@@ -33,7 +34,9 @@
   justify-content: center;
 }
 .h1-text {
-  font-size: 1.2rem;
+  font-family: "Rubik";
+  font-size: 1rem;
+  line-height: 1.875rem;
   color: var(--white);
   text-align: center;
   display: flex;
@@ -44,7 +47,7 @@
   width: 100%;
   height: 45px;
   background-color: var(--aqua);
-  opacity: 0.95;
+  opacity: 0.90;
 }
 .ul-header {
   height: 45px;
@@ -63,6 +66,9 @@
   align-items: center;
 }
 .nav-links {
+  font-family: "Rubik";
+  font-size: 0.9375rem;
+  line-height: 1.875rem;
   text-decoration: none;
   color: var(--white);
 }
@@ -72,9 +78,7 @@
 /*HERO*/
 .div-hero {
   width: 100%;
-  /*hay que posicionar bien este elemento y especificar bien las medidas para que se coloquen automáticamente las demás secciones. La imagene stá superpuesta con el header */
-  height: 504px;
-  
+  height: 350px;
 }
 .img-hero {
   width: 100%;
@@ -89,17 +93,18 @@
   width: 100%;
 }
 .h2-slogan {
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
 font-size: 1.15rem;
-box-sizing: border-box;
+line-height: 1.563rem;
 text-align: center;
-width: 290px;
 padding: 15px;
 margin: 15px;
 position: absolute;
-background-color: var(--white);
 top: 370px;
 left: 0px;
 z-index: 1000;
+background-color: var(--white);
 }
 .h2-slogan .div-slogan {
   text-align: center;
