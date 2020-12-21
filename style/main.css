@@ -215,6 +215,10 @@ background-color: var(--white);
   justify-content: center;
 }
 
+.rrss{
+  color:var(--blue-green);
+}
+
 /* FOOTER */
 .footer {
   font-family: "Open Sans";
