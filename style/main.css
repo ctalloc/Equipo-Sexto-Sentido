@@ -323,7 +323,29 @@ color:#54855a;
     margin:0 0 0 45px;
     opacity: 0.8;
   }
-
+  /* ABOUT US*/
+  .container {
+    margin-left: 45px;
+    margin-right: 45px;
+    border: 0;
+  }
+  .container-fyd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+    border: 0;
+  }  
+  .FyD-title-container {
+    width: 324px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+  }
+  .FyD-text-container {
+    margin-bottom: 84px;
+    width: 324px;
+  }
 }
 
 /* MEDIAQUERIE DESKTOP */
@@ -350,5 +372,29 @@ color:#54855a;
   .h2-slogan {
     margin:0 0 0 138px;
   }
-
+  /* ABOUT US*/
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    max-width: 1200px;
+  }
+  .container-fyd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    max-width: 1200px;
+  }  
+  .FyD-title-container {
+    width: 439px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+  }
+  .FyD-text-container {
+    margin-bottom: 60px;
+    width: 439px;
+  }
 }
