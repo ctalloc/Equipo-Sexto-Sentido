@@ -90,7 +90,13 @@
   background-size: cover;
 }
 .div-slogan {
-  width: 100%;
+width: 100%;
+position: absolute;
+margin: 15px;
+top: 370px;
+left: 0px;
+z-index: 1000;
+background-color: var(--white);
 }
 .h2-slogan {
 font-family: 'Open Sans', sans-serif;
@@ -99,11 +105,7 @@ font-size: 1.15rem;
 line-height: 1.563rem;
 text-align: center;
 padding: 15px;
-position: absolute;
-top: 370px;
-left: 0px;
-z-index: 1000;
-background-color: var(--white);
+
 }
 .h2-slogan .div-slogan {
   text-align: center;
