@@ -2,7 +2,7 @@
   --white: white;
   --aqua: #14d9c4;
   --blue-green: #099d8d;
-  --ligth-grey-blue: #b8b8b9; 
+  --light-grey-blue: #b8b8b9; 
   --grey: #727272;
   --dark-grey: #54585a;
   --black: black;
@@ -14,7 +14,6 @@
 }
 
 /*HEADER*/
-
 .page-header {
   width: 100%;
   height: 105px;
@@ -54,7 +53,6 @@
 }
 .nav-list {
   list-style-type: none;
-  font-size: 1rem;
   display: flex;
   align-items: center;
 }
@@ -68,11 +66,16 @@
 .nav-links:hover {
   color: var(--grey-links);
 }
+#equipo {
+  scroll-margin-top: 4.2em;
+}
+#adalabers {
+  scroll-margin-top: 4.2em;
+}
 /*HERO*/
 .div-hero {
   width: 100%;
   height: 350px;
-  /*Dar a la imagen el alto que necesitamos y que ajuste el alto*/
 } 
 .img-hero {
   width: 100%;
@@ -84,21 +87,21 @@
   background-size: cover;
 }
 .div-slogan {
-width: 100%;
-position: absolute;
-top: 370px;
-left: 0px;
-z-index: 1000;
+  width: 100%;
+  position: absolute;
+  top: 370px;
+  left: 0px;
+  z-index: 1000;
 }
 .h2-slogan {
-font-family: 'Open Sans', sans-serif;
-font-weight: 600;
-font-size: 1.125rem;
-line-height: 1.563rem;
-text-align: center;
-padding: 15px;
-margin: 15px;
-background-color: var(--white);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.563rem;
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+  background-color: var(--white);
 }
 .h2-slogan .div-slogan {
   text-align: center;
@@ -167,6 +170,7 @@ background-color: var(--white);
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 /*ADALABERS*/
 .section-adalabers {
   width: 100%;
@@ -268,9 +272,6 @@ padding: 0;
 }
 
 
- 
-  
-
 /* MEDIAQUERIE TABLET */
 @media all and (min-width: 768px) {
   /* HEADER */
@@ -300,6 +301,12 @@ padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  #equipo {
+    scroll-margin-top: 2.5em;
+  }
+  #adalabers {
+    scroll-margin-top: 2.5em;
   }
   /* HERO */
   .div-hero {
@@ -383,13 +390,13 @@ color:#54855a;
 .afooter {
   color:var(--dark-grey);
 }
+}
 
 /* MEDIAQUERIE DESKTOP */
 @media all and (min-width: 1200px) {
   /* HEADER */
 
   .page-header {
-    max-width: 1200px;
     margin: auto;
   }
   .h1-text {
