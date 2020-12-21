@@ -108,7 +108,7 @@ background-color: var(--white);
 .about {
   width: 100%;
   position: relative;
-  top: 90px;
+  top: 100px;
 }
 .container {
   margin-left: 15px;
@@ -117,12 +117,13 @@ background-color: var(--white);
 }
 .equipo-title-container {
   height: 45px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik";
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.88;
   text-align: center;
   color: var(--aqua);
+  margin-top: 30px;
 }
 .equipo-text {
   width: 100%;
@@ -131,29 +132,39 @@ background-color: var(--white);
   line-height: 1.5;
   text-align: center;
   color: #54585a;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .fortalezasydebilidades {
   width: 100%;
   background-color: #b8b8b9;
   position: relative;
 }
+.container-fyd {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 0;
+}
 .FyD-title-container {
   width: 100%;
-  height: 10%;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik";
   font-size:  1.375rem;
   font-weight: 500;
   line-height: 2.05;
   text-align: center;
   color: var(--blue-green);
+  margin
 }
 .FyD-text-container {
   width: 100%;
-  height: 40%;
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /*ADALABERS*/
 .section-adalabers {
