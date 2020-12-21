@@ -22,8 +22,6 @@
   position: fixed;
   z-index: 1500;
   width: 100%;
-  margin: 0px;
-  padding: 0px;
 }
 .h1-div {
   background-color: var(--blue-green);
@@ -34,7 +32,7 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-}
+  }
 .h1-text {
   font-family: "Rubik";
   font-size: 1rem;
@@ -81,7 +79,8 @@
 .div-hero {
   width: 100%;
   height: 350px;
-}
+  /*Dar a la imagen el alto que necesitamos y que ajuste el alto*/
+} 
 .img-hero {
   width: 100%;
   height: 420px;
@@ -94,11 +93,10 @@
 .div-slogan {
 width: 100%;
 position: absolute;
-margin: 15px;
 top: 370px;
 left: 0px;
 z-index: 1000;
-background-color: var(--white);
+
 }
 .h2-slogan {
 font-family: 'Open Sans', sans-serif;
@@ -107,7 +105,8 @@ font-size: 1.15rem;
 line-height: 1.563rem;
 text-align: center;
 padding: 15px;
-
+margin: 15px;
+background-color: var(--white);
 }
 .h2-slogan .div-slogan {
   text-align: center;
@@ -170,7 +169,6 @@ padding: 15px;
   background-color: var(--white);
   position: relative;
   top: 90px;
-
 }
 .quienes-somos {
   width: 100%;
@@ -225,10 +223,10 @@ padding: 15px;
   justify-content: center;
   width: 100%;
   height: 250px;
-  margin: 2px 2px 2px 5px;
-  padding: 30px 74px 45px;
   border: solid 1px #b8b8b9;
   background-color: var(--white);
+  position: relative;
+  top: 90px;
 }
 .footerlist {
 display: flex;
@@ -240,7 +238,7 @@ color:#54855a;
   list-style-type: none;
 }
 .afooter {
-  color:#54855a;
+  color:var(--dark-grey);
 }
 
 .copyright {
@@ -273,4 +271,12 @@ color:#54855a;
   padding: 0;
 }
 
+/* MEDIAQUERIE TABLET */
+@media all and (mid-width: 768px) {
 
+}
+
+/* MEDIAQUERIE DESKTOP */
+@media all and (mid-width: 1200px) {
+  
+}
