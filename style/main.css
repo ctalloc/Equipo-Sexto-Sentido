@@ -329,6 +329,10 @@ color:#54855a;
 @media all and (min-width: 1200px) {
   /* HEADER */
 
+  .page-header {
+    max-width: 1200px;
+    margin: auto;
+  }
   .h1-text {
     margin-left: 138px;
   }
