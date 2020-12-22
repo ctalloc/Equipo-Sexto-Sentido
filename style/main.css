@@ -208,7 +208,7 @@
   margin: 10px;
   font-size: 16px;
   text-align: center;
-  color: #54585a;
+  color: var(--dark-grey);
   
 }
 .article{
@@ -342,6 +342,11 @@ padding: 0;
     margin-bottom: 84px;
     width: 324px;
   }
+  /* Adalabers */
+
+  
+
+  
 
   /* foooter*/
   .footer {
@@ -427,4 +432,8 @@ padding: 0;
     margin-bottom: 60px;
     width: 439px;
   }
+
+  /* Adalabers */
+
+
 }
