@@ -358,15 +358,18 @@
     margin: 20px;
   }
 
-  .article-programadora2 {
-    flex-direction: row-reverse;
-    
-  }
+  .article-programadora2,
   .article-programadora4 {
     flex-direction: row-reverse;
   }
 
+  .next-to-img {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
 
+    /* falta alinear los elementos junto a la foto */
+  }
 
   /* foooter*/
   .footer {
