@@ -2,7 +2,7 @@
   --white: white;
   --aqua: #14d9c4;
   --blue-green: #099d8d;
-  --light-grey-blue: #b8b8b9; 
+  --light-grey-blue: #b8b8b9;
   --grey: #727272;
   --dark-grey: #54585a;
   --black: black;
@@ -93,7 +93,7 @@
   z-index: 1000;
 }
 .h2-slogan {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 1.563rem;
@@ -152,7 +152,7 @@
 .FyD-title-container {
   width: 100%;
   font-family: "Rubik";
-  font-size:  1.375rem;
+  font-size: 1.375rem;
   font-weight: 500;
   line-height: 2.05;
   text-align: center;
@@ -192,7 +192,6 @@
   height: 180px;
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
-
 }
 .nombre-adalaber {
   width: 200px;
@@ -208,21 +207,22 @@
   font-size: 16px;
   text-align: center;
   color: var(--dark-grey);
-  
 }
-.article{
-  display:flex;
+.article {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.rrss{
-  color:var(--blue-green);
+.rrss {
+  color: var(--blue-green);
+  text-align: center;
+  margin-bottom: 20px;
 }
 /* FOOTER */
 .footer {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -238,20 +238,20 @@
   list-style-type: none;
 }
 .afooter {
-  color:var(--dark-grey);
+  color: var(--dark-grey);
 }
 
 .copyright {
   /*width: 178px;*/
   height: 20px;
   margin: 0 0 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   text-align: center;
   color: #b8b8b9;
 }
 .logo {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -260,16 +260,14 @@
 .logofooter {
   width: 115.9px;
   height: 45px;
-  
 }
 .ulnav {
-display: flex;
-flex-direction: column;
-text-align: center;
-color: var(--dark-grey);
-padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--dark-grey);
+  padding: 0;
 }
-
 
 /* MEDIAQUERIE TABLET */
 @media all and (min-width: 768px) {
@@ -315,7 +313,7 @@ padding: 0;
   }
   .h2-slogan {
     text-align: left;
-    margin:0 0 0 45px;
+    margin: 0 0 0 45px;
     opacity: 0.8;
   }
   /* ABOUT US*/
@@ -331,7 +329,7 @@ padding: 0;
     margin-left: 45px;
     margin-right: 45px;
     border: 0;
-  }  
+  }
   .FyD-title-container {
     width: 324px;
     margin-top: 45px;
@@ -343,9 +341,32 @@ padding: 0;
   }
   /* Adalabers */
 
-  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .quienes-somos {
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 30px;
+  }
+  .article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 20px;
+  }
 
-  
+  .article-programadora2 {
+    flex-direction: row-reverse;
+    
+  }
+  .article-programadora4 {
+    flex-direction: row-reverse;
+  }
+
+
 
   /* foooter*/
   .footer {
@@ -373,10 +394,10 @@ padding: 0;
     padding: 0;
   }
   .footerlist {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  color:#54855a;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #54855a;
   }
   .listfooter {
     text-align: right;
@@ -384,7 +405,7 @@ padding: 0;
     line-height: 30px;
   }
   .afooter {
-    color:var(--dark-grey);
+    color: var(--dark-grey);
   }
 }
 
@@ -401,7 +422,7 @@ padding: 0;
     margin-right: 138px;
   }
   .h2-slogan {
-    margin:0 0 0 138px;
+    margin: 0 0 0 138px;
   }
   /* ABOUT US*/
   .container {
@@ -418,7 +439,7 @@ padding: 0;
     margin-right: auto;
     border: 0;
     max-width: 1200px;
-  }  
+  }
   .FyD-title-container {
     width: 439px;
     margin-top: 45px;
@@ -430,6 +451,4 @@ padding: 0;
   }
 
   /* Adalabers */
-
-
 }
