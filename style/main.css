@@ -80,10 +80,10 @@
   background-size: cover;
   background-position: center;
   transition: background-image 2s ease-in-out;
-  background-image: url("/images/hero.jpg");
+  background-image: url(".././images/hero.jpg");
 }
 #steam:hover {
-  background-image: url("/images/hero_2.jpg");
+  background-image: url(".././images/hero_2.jpg");
 }
 .div-slogan {
   width: 100%;
