@@ -228,19 +228,10 @@
   justify-content: center;
   width: 100%;
   height: 250px;
-  border: solid 1px #b8b8b9;
   background-color: var(--white);
   position: relative;
   top: 90px;
 }
-
-.listfooter {
-  list-style-type: none;
-}
-.afooter {
-  color: var(--dark-grey);
-}
-
 .copyright {
   /*width: 178px;*/
   height: 20px;
@@ -250,7 +241,28 @@
   text-align: center;
   color: #b8b8b9;
 }
+.ulnav {
+  font-family: "Rubik-Medium", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--dark-grey);
+  padding: 0;
+  opacity: 75%;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.listfooter {
+  list-style-type: none;
+}
+.afooter {
+  color: var(--dark-grey);
+}
+
+
 .logo {
+  margin-top: 30;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -261,13 +273,7 @@
   width: 115.9px;
   height: 45px;
 }
-.ulnav {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  color: var(--dark-grey);
-  padding: 0;
-}
+
 
 /* MEDIAQUERIE TABLET */
 @media all and (min-width: 768px) {
@@ -383,14 +389,16 @@
   }
   .copyright {
     margin-left: 45px;
-    padding-top: 24px;
+    /*padding-top: 24px;*/
     width: 40%;
     text-align: left;
     color: #b8b8b9;
   }
   .navfooter {
     width: 50%;
-    padding-top: 24px;
+     /*padding-top: 24px;*/
+    padding-right: 45px;
+    
   }
 
   .ulnav {
@@ -409,6 +417,12 @@
   }
   .afooter {
     color: var(--dark-grey);
+  }
+  .logo {
+    width: 115px;
+    height: 45;
+    margin-left: 50px;
+    padding-bottom: 30px;
   }
 }
 
@@ -454,4 +468,50 @@
   }
 
   /* Adalabers */
+
+  /* foooter*/
+  .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 170px;
+    position: relative;
+    top: 90px;
+  }
+  .copyright {
+    margin-left: 45px;
+    padding-top: 24px;
+    width: 40%;
+    text-align: left;
+    color: #b8b8b9;
+  }
+  .navfooter {
+    width: 50%;
+    padding-top: 24px;
+  }
+
+  .ulnav {
+    padding: 0;
+  }
+  .footerlist {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #54855a;
+  }
+  .listfooter {
+    text-align: right;
+    list-style-type: none;
+    line-height: 30px;
+  }
+  .afooter {
+    color: var(--dark-grey);
+  }
+  .logo {
+    width: 115px;
+    height: 45;
+    margin-left: 50px;
+    padding-bottom: 30px;
+  }
 }
