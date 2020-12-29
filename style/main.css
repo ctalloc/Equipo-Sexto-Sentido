@@ -73,7 +73,6 @@
   scroll-margin-top: 4.2em;
 }
 /*HERO*/
-
 #steam {
   width: auto;
   height: 420px;
@@ -280,16 +279,12 @@
   /* HEADER */
   .page-header {
     height: 60px;
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: baseline;
   }
   .h1-text {
     width: 50%;
-    text-align: center;
-    margin-left: 45px;
-    align-self: auto;
+    margin: 15px 0 15px 45px;
     justify-content: left;
   }
   .nav-class {
@@ -300,10 +295,6 @@
   .ul-header {
     width: 300px;
     margin-right: 45px;
-    margin-left: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
   }
   #equipo {
     scroll-margin-top: 2.5em;
@@ -314,7 +305,6 @@
   /* HERO */
   .div-slogan {
     width: auto;
-    height: 80px;
     top: 365px;
   }
   .h2-slogan {
@@ -428,9 +418,6 @@
 /* MEDIAQUERIE DESKTOP */
 @media all and (min-width: 1200px) {
   /* HEADER */
-  .page-header {
-    margin: auto;
-  }
   .h1-text {
     margin-left: 138px;
   }
