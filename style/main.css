@@ -379,25 +379,21 @@
 
   /* foooter*/
   .footer {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
-    height: 170px;
-    position: relative;
-    top: 90px;
   }
   .copyright {
+    margin-top: 30px;
     margin-left: 45px;
-    /*padding-top: 24px;*/
     width: 40%;
     text-align: left;
     color: #b8b8b9;
   }
   .navfooter {
     width: 50%;
-     /*padding-top: 24px;*/
-    padding-right: 45px;
+    margin-right: 45px;
+    margin-top: 24px;
     
   }
 
@@ -419,10 +415,13 @@
     color: var(--dark-grey);
   }
   .logo {
-    width: 115px;
+    position: absolute;
+    top: 65px;
+    left: 45px;
+    /* width: 115px;
     height: 45;
     margin-left: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 30px; */
   }
 }
 
@@ -470,25 +469,18 @@
   /* Adalabers */
 
   /* foooter*/
-  .footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 170px;
-    position: relative;
-    top: 90px;
-  }
+    /* flex-direction: row;
+       flex-wrap: wrap; 
+    justify-content: space-between; */
+    
   .copyright {
-    margin-left: 45px;
-    padding-top: 24px;
-    width: 40%;
-    text-align: left;
-    color: #b8b8b9;
+    margin-top: 30px;
+    margin-left: 138px;
   }
   .navfooter {
+    margin-top: 24px;
+    margin-right: 138px;
     width: 50%;
-    padding-top: 24px;
   }
 
   .ulnav {
@@ -509,9 +501,9 @@
     color: var(--dark-grey);
   }
   .logo {
-    width: 115px;
-    height: 45;
-    margin-left: 50px;
-    padding-bottom: 30px;
+    position: absolute;
+    top: 65px;
+    left: 138px;
+    
   }
 }
