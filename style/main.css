@@ -235,7 +235,7 @@
   top: 90px;
 }
 .copyright {
-  /*width: 178px;*/
+  /*width: 178px Debería de estar? no tiene medidas;*/
   height: 20px;
   margin: 0 0 20px;
   font-family: "Open Sans", sans-serif;
@@ -244,6 +244,7 @@
   color: #b8b8b9;
 }
 .ulnav {
+  /*height: 60px debería de estar¿ no tiene medidas;*/
   font-family: "Rubik-Medium", sans-serif;
   display: flex;
   flex-direction: column;
@@ -260,6 +261,7 @@
 }
 .afooter {
   color: var(--dark-grey);
+  text-transform: uppercase;
 }
 
 
