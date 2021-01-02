@@ -365,12 +365,11 @@
   }
 
   .next-to-img {
-    background-color: aqua;
     display: flex;
     flex-direction: column;
-
-    /* falta alinear los elementos junto a la foto */
   }
+
+
 
   /* foooter*/
   .footer {
