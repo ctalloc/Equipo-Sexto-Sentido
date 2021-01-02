@@ -300,6 +300,7 @@
   .ul-header {
     width: 300px;
     margin-right: 45px;
+    justify-content: space-between;
   }
   #equipo {
     scroll-margin-top: 2.5em;
