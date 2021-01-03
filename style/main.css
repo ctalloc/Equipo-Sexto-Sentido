@@ -82,10 +82,10 @@
   background-size: cover;
   background-position: center;
   transition: background-image 2s ease-in-out;
-  background-image: url(".././images/hero.jpg");
+  background-image: url(".././images/hero_320.jpg");
 }
 #steam:hover {
-  background-image: url(".././images/hero_2.jpg");
+  background-image: url(".././images/hero_320_2.jpg");
 }
 .div-slogan {
   width: 100%;
@@ -204,7 +204,7 @@
   text-align: center;
   color: var(--black);
 }
-.bio {
+.bio { /*El borde de esta caja tiene que estar a 15px del borde izquierdo y derecho de la página .A.*/
   margin: 10px;
   font-size: 16px;
   text-align: center;
@@ -309,6 +309,12 @@
     scroll-margin-top: 2.5em;
   }
   /* HERO */
+  #steam {
+    background-image: url(".././images/hero_1200.jpg");
+  }
+  #steam:hover {
+    background-image: url(".././images/hero_1200_2.jpg");
+  }
   .div-slogan {
     width: auto;
     top: 365px;
@@ -342,12 +348,11 @@
     width: 324px;
   }
   /* Adalabers */
-
   .container {
     display: flex;
     flex-direction: column;
   }
-  .quienes-somos {
+  .quienes-somos { 
     flex-flow: row wrap;
     justify-content: center;
     margin: 30px;
@@ -365,7 +370,7 @@
     flex-direction: row-reverse;
   }
 
-  .next-to-img {
+  .next-to-img { /*Debería estar a 45px del borde izquierdo y derecho .A.*/
     display: flex;
     flex-direction: column;
   }
@@ -432,6 +437,13 @@
   .h2-slogan {
     margin: 0 0 0 138px;
   }
+  /*HERO*/
+  #steam {
+    background-image: url(".././images/hero_1200.jpg");
+  }
+  #steam:hover {
+    background-image: url(".././images/hero_1200_2.jpg");
+  }
   /* ABOUT US*/
   .container {
     margin-left: auto;
@@ -459,7 +471,7 @@
   }
 
   /* Adalabers */
-
+/*Las imágenes deberían estar a 138px del lado izqquierdo las impares y del lado derecho las pares .A.*/
   /* foooter*/
     /* flex-direction: row;
        flex-wrap: wrap; 
