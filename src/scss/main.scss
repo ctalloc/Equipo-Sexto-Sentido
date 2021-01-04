@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   /* border: 1px solid black; */
   box-sizing: border-box; 
   margin: 0;
@@ -10,12 +10,12 @@ a {
 }
 :root {
     --white: white;
+    --black: black;
     --aqua: #14d9c4;
     --blue-green: #099d8d;
     --light-grey-blue: #b8b8b9;
     --grey: #727272;
     --dark-grey: #54585a;
-    --black: black;
   }
   
   @font-face {
@@ -36,7 +36,7 @@ a {
     justify-content: space-between;
   }
   .h1-text {
-    font-family: "Rubik-Medium", sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 1rem;
     line-height: 1.875rem;
@@ -68,7 +68,6 @@ a {
     align-items: center;
   }
   .nav-links {
-    font-family: "Rubik", sans-serif;
     font-size: 0.9375rem;
     line-height: 1.875rem;
     text-decoration: none;
@@ -320,10 +319,10 @@ a {
     }
     /* HERO */
     #steam {
-      background-image: url(".././images/hero_1200.jpg");
+      background-image: url(".././images/hero_768.jpg");
     }
     #steam:hover {
-      background-image: url(".././images/hero_1200_2.jpg");
+      background-image: url(".././images/hero_768_2.jpg");
     }
     .div-slogan {
       width: auto;
