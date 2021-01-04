@@ -82,10 +82,10 @@
   background-size: cover;
   background-position: center;
   transition: background-image 2s ease-in-out;
-  background-image: url(".././images/hero.jpg");
+  background-image: url(".././images/hero_320.jpg");
 }
 #steam:hover {
-  background-image: url(".././images/hero_2.jpg");
+  background-image: url(".././images/hero_320_2.jpg");
 }
 .div-slogan {
   width: 100%;
@@ -183,7 +183,7 @@
   width: 100%;
   height: 45px;
   font-family: "Rubik";
-  font-size: 24px;
+  font-size: 24px; /*Las fuentes es mejor que estén en unidades relativas como em o rem .A.*/
   line-height: 1.88;
   text-align: center;
   color: var(--blue-green);
@@ -199,14 +199,14 @@
   width: 200px;
   height: 45px;
   margin: auto;
-  font-size: 20px;
+  font-size: 20px; /*Las fuentes es mejor que estén en unidades relativas como em o rem .A.*/
   line-height: 2.25;
   text-align: center;
   color: var(--black);
 }
-.bio {
+.bio { /*El borde de esta caja tiene que estar a 15px del borde izquierdo y derecho de la página .A.*/
   margin: 10px;
-  font-size: 16px;
+  font-size: 16px; /*Las fuentes es mejor que estén en unidades relativas como em o rem .A.*/
   text-align: center;
   color: var(--dark-grey);
 }
@@ -239,7 +239,7 @@
   height: 20px;
   margin: 0 0 20px;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 14px; 
   text-align: center;
   color: #b8b8b9;
 }
@@ -300,6 +300,7 @@
   .ul-header {
     width: 300px;
     margin-right: 45px;
+    justify-content: space-between;
   }
   #equipo {
     scroll-margin-top: 2.5em;
@@ -308,6 +309,12 @@
     scroll-margin-top: 2.5em;
   }
   /* HERO */
+  #steam {
+    background-image: url(".././images/hero_1200.jpg");
+  }
+  #steam:hover {
+    background-image: url(".././images/hero_1200_2.jpg");
+  }
   .div-slogan {
     width: auto;
     top: 365px;
@@ -341,12 +348,11 @@
     width: 324px;
   }
   /* Adalabers */
-
   .container {
     display: flex;
     flex-direction: column;
   }
-  .quienes-somos {
+  .quienes-somos { 
     flex-flow: row wrap;
     justify-content: center;
     margin: 30px;
@@ -364,7 +370,7 @@
     flex-direction: row-reverse;
   }
 
-  .next-to-img {
+  .next-to-img { /*Debería estar a 45px del borde izquierdo y derecho .A.*/
     display: flex;
     flex-direction: column;
 
@@ -430,6 +436,13 @@
   .h2-slogan {
     margin: 0 0 0 138px;
   }
+  /*HERO*/
+  #steam {
+    background-image: url(".././images/hero_1200.jpg");
+  }
+  #steam:hover {
+    background-image: url(".././images/hero_1200_2.jpg");
+  }
   /* ABOUT US*/
   .container {
     margin-left: auto;
@@ -457,7 +470,7 @@
   }
 
   /* Adalabers */
-
+/*Las imágenes deberían estar a 138px del lado izqquierdo las impares y del lado derecho las pares .A.*/
   /* foooter*/
     /* flex-direction: row;
        flex-wrap: wrap; 
