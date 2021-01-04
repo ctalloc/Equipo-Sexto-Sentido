@@ -443,16 +443,18 @@ a {
     .ul-header {
       margin-right: 138px;
     }
+    .div-slogan {
+      top: 500px;
+    }
     .h2-slogan {
       margin: 0 0 0 138px;
     }
     /*HERO*/
     .div-hero {
-        /* revisar : incluir max width en la propia imagen */    
-      max-width: 1200px;
       margin:auto;
     }
     #steam {
+      height: 550px;
       background-image: url(".././images/hero_1200.jpg");
     }
     #steam:hover {
