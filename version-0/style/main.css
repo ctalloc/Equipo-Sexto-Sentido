@@ -373,9 +373,8 @@
   .next-to-img { /*Debería estar a 45px del borde izquierdo y derecho .A.*/
     display: flex;
     flex-direction: column;
+
   }
-
-
 
   /* foooter*/
   .footer {

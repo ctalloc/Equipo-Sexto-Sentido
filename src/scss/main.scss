@@ -207,7 +207,7 @@ a {
   .nombre-adalaber {
     width: 200px;
     height: 45px;
-    margin: auto;
+    // margin: auto;
     font-size: 20px; /*Las fuentes es mejor que estén en unidades relativas como em o rem .A.*/
     line-height: 2.25;
     text-align: center;
@@ -389,8 +389,8 @@ a {
     /* foooter*/
     .footer {
       flex-direction: row;
-      /* flex-wrap: wrap; */
       justify-content: space-between;
+      height: 160px;
     }
     .copyright {
       margin-top: 30px;
@@ -447,6 +447,11 @@ a {
       margin: 0 0 0 138px;
     }
     /*HERO*/
+    .div-hero {
+        /* revisar : incluir max width en la propia imagen */    
+      max-width: 1200px;
+      margin:auto;
+    }
     #steam {
       background-image: url(".././images/hero_1200.jpg");
     }
