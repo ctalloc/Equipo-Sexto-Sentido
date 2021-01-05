@@ -1,0 +1,64 @@
+#steam {
+    width: auto;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 2s ease-in-out;
+    background-image: url(".././images/hero_320.jpg");
+  }
+  #steam:hover {
+    background-image: url(".././images/hero_320_2.jpg");
+  }
+  .div-slogan {
+    width: 100%;
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    z-index: 1000;
+  }
+  .h2-slogan {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    background-color: var(--white);
+  }
+  .h2-slogan .div-slogan {
+    text-align: center;
+    position: relative;
+  }
+  @media all and (min-width: 768px) {
+    /* HERO */
+    #steam {
+      background-image: url(".././images/hero_768.jpg");
+    }
+    #steam:hover {
+      background-image: url(".././images/hero_768_2.jpg");
+    }
+    .div-slogan {
+      width: auto;
+      top: 365px;
+    }
+    .h2-slogan {
+      text-align: left;
+      margin: 0 0 0 45px;
+      opacity: 0.8;
+    }
+  }
+  @media all and (min-width: 1200px) {
+
+    /*HERO*/
+    .div-hero {
+      margin:auto;
+    }
+    #steam {
+      height: 550px;
+      background-image: url(".././images/hero_1200.jpg");
+    }
+    #steam:hover {
+      background-image: url(".././images/hero_1200_2.jpg");
+    }
+  }

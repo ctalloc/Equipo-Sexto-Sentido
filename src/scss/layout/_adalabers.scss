@@ -1,0 +1,82 @@
+.section-adalabers {
+    width: 100%;
+    background-color: var(--white);
+    position: relative;
+    top: 90px;
+  }
+  .quienes-somos {
+    width: 100%;
+    height: 45px;
+    font-family: "Rubik";
+    font-size: 24px; /*Las fuentes es mejor que estén en unidades relativas como em o rem .A.*/
+    line-height: 1.88;
+    text-align: center;
+    color: var(--blue-green);
+  }
+  
+  .imagen-adalaber {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    border: solid 5px rgba(0, 0, 0, 0.08);
+  }
+  .nombre-adalaber {
+    width: 200px;
+    height: 45px;
+    // margin: auto;
+    font-size: 20px; /*Las fuentes es mejor que estén en unidades relativas como em o rem .A.*/
+    line-height: 2.25;
+    text-align: center;
+    color: var(--black);
+  }
+  .bio { /*El borde de esta caja tiene que estar a 15px del borde izquierdo y derecho de la página .A.*/
+    margin: 10px;
+    font-size: 16px; /*Las fuentes es mejor que estén en unidades relativas como em o rem .A.*/
+    text-align: center;
+    color: var(--dark-grey);
+  }
+  .article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rrss {
+    color: var(--blue-green);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  @media all and (min-width: 768px) {
+    /* Adalabers */
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    .quienes-somos { 
+      flex-flow: row wrap;
+      justify-content: center;
+      margin: 30px;
+    }
+    .article {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+      margin: 20px;
+    }
+    .article-programadora2,
+    .article-programadora4 {
+      flex-direction: row-reverse;
+    }
+    .next-to-img { /*Debería estar a 45px del borde izquierdo y derecho .A.*/
+      display: flex;
+      flex-direction: column;
+    }
+  }
+    
+  @media all and (min-width: 1200px) {
+    /* Adalabers */
+  /*Las imágenes deberían estar a 138px del lado izqquierdo las impares y del lado derecho las pares .A.*/
+ 
+  }
