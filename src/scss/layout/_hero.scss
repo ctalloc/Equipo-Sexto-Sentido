@@ -5,9 +5,22 @@
     background-position: center;
     transition: background-image 2s ease-in-out;
     background-image: url(".././images/hero_320.jpg");
+    @media all and (min-width: 768px) {
+      background-image: url(".././images/hero_768.jpg");
+    }
+    @media all and (min-width: 1200px) {
+      height: 550px;
+      background-image: url(".././images/hero_1200.jpg");
+    }
   }
   #steam:hover {
     background-image: url(".././images/hero_320_2.jpg");
+    @media all and (min-width: 768px) {
+      background-image: url(".././images/hero_768_2.jpg");
+    }
+    @media all and (min-width: 1200px) {
+    background-image: url(".././images/hero_1200_2.jpg");
+    }
   }
   .div-slogan {
     width: 100%;
@@ -15,52 +28,38 @@
     top: 370px;
     left: 0px;
     z-index: 1000;
+    @media all and (min-width: 768px) {
+      width: auto;
+      top: 365px;
+    }
+    @media all and (min-width: 1200px) {
+      top: 500px;
+    }
   }
   .h2-slogan {
-    font-weight: 500;
+    font-family: 'Open Sans';
+    font-weight: 600;
     font-size: 1.125rem;
     line-height: 1.563rem;
     text-align: center;
     padding: 15px;
     margin: 15px;
     background-color: $white;
+    @media all and (min-width: 768px) {
+      text-align: left;
+      margin: 0 0 0 45px;
+      opacity: 0.8;
+    }
+    @media all and (min-width: 1200px) {
+      margin: 0 0 0 138px;
+    }
   }
   .h2-slogan .div-slogan {
     text-align: center;
     position: relative;
   }
-  @media all and (min-width: 768px) {
-    /* HERO */
-    #steam {
-      background-image: url(".././images/hero_768.jpg");
-    }
-    #steam:hover {
-      background-image: url(".././images/hero_768_2.jpg");
-    }
-    .div-slogan {
-      width: auto;
-      top: 365px;
-    }
-    .h2-slogan {
-      text-align: left;
-      margin: 0 0 0 45px;
-      opacity: 0.8;
-    }
-  }
-  @media all and (min-width: 1200px) {
-
-    /*HERO*/
-    .div-hero {
-      margin:auto;
-    }
-    #steam {
-      height: 550px;
-      background-image: url(".././images/hero_1200.jpg");
-    }
-    #steam:hover {
-      background-image: url(".././images/hero_1200_2.jpg");
-    }
-    .div-slogan {
-      top: 500px;
-    }
-  }
+  // @media all and (min-width: 1200px) {
+  //   .div-hero {
+  //     margin:auto;
+  //   }
+  // }
