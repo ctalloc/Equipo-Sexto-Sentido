@@ -17,14 +17,13 @@
     z-index: 1000;
   }
   .h2-slogan {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.125rem;
     line-height: 1.563rem;
     text-align: center;
     padding: 15px;
     margin: 15px;
-    background-color: var(--white);
+    background-color: $white;
   }
   .h2-slogan .div-slogan {
     text-align: center;
@@ -60,5 +59,8 @@
     }
     #steam:hover {
       background-image: url(".././images/hero_1200_2.jpg");
+    }
+    .div-slogan {
+      top: 500px;
     }
   }
