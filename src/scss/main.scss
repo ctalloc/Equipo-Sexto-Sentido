@@ -233,7 +233,7 @@ a {
   }
   /* FOOTER */
   .footer {
-    /* border-top: 1px --light-grey-blu; */
+    border-top: 1px var(--light-grey-blue); 
     font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: column;
