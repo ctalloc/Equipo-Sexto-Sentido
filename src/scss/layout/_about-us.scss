@@ -8,6 +8,18 @@
     margin-left: 15px;
     margin-right: 15px;
     border: 0;
+    @media all and (min-width: 768px) {
+      margin-left: 45px;
+      margin-right: 45px;
+      border: 0;
+    }
+    @media all and (min-width: 1200px) {
+      margin-left: auto;
+      margin-right: auto;
+      border: 0;
+      max-width: 1200px;
+    }
+
   }
   .equipo-title-container {
     height: 45px;
@@ -40,6 +52,23 @@
     margin-left: 15px;
     margin-right: 15px;
     border: 0;
+    @media all and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 45px;
+      margin-right: 45px;
+      border: 0;
+    }
+    @media all and (min-width: 1200px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: auto;
+      margin-right: auto;
+      border: 0;
+      max-width: 1200px;
+    }
   }
   .FyD-title-container {
     width: 100%;
@@ -51,6 +80,16 @@
     color: $blue-green;
     margin-top: 15px;
     margin-bottom: 15px;
+    @media all and (min-width: 768px) {
+      width: 324px;
+      margin-top: 45px;
+      margin-bottom: 15px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 439px;
+      margin-top: 45px;
+      margin-bottom: 15px;
+    }
   }
   .FyD-text-container {
     width: 100%;
@@ -60,59 +99,13 @@
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-
-  @media all and (min-width: 768px) {
-   
-    /* ABOUT US*/
-    .container {
-      margin-left: 45px;
-      margin-right: 45px;
-      border: 0;
-    }
-    .container-fyd {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      margin-left: 45px;
-      margin-right: 45px;
-      border: 0;
-    }
-    .FyD-title-container {
-      width: 324px;
-      margin-top: 45px;
-      margin-bottom: 15px;
-    }
-    .FyD-text-container {
+    @media all and (min-width: 768px) {
       margin-bottom: 84px;
       width: 324px;
     }
-  }
-  @media all and (min-width: 1200px) {
-
-    /* ABOUT US*/
-    .container {
-      margin-left: auto;
-      margin-right: auto;
-      border: 0;
-      max-width: 1200px;
-    }
-    .container-fyd {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      margin-left: auto;
-      margin-right: auto;
-      border: 0;
-      max-width: 1200px;
-    }
-    .FyD-title-container {
-      width: 439px;
-      margin-top: 45px;
-      margin-bottom: 15px;
-    }
-    .FyD-text-container {
+    @media all and (min-width: 1200px) {
       margin-bottom: 60px;
       width: 439px;
     }
   }
+
