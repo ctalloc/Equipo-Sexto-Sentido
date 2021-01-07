@@ -30,9 +30,9 @@
     color: $black;
   }
   .bio { /*El borde de esta caja tiene que estar a 15px del borde izquierdo y derecho de la página .A.*/
-    margin: 10px 15px;
+    margin: 10px 0px;
     font-size: 1rem;
-    text-align: center;
+    // text-align: center;
     color: $dark-grey;
   }
   .article {
