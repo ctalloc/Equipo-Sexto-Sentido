@@ -45,7 +45,7 @@
     justify-content: flex-end;
   }
 }
-.ul-header {
+.menu {
   height: 45px;
   padding-left: 0;
   margin: 0;
@@ -62,12 +62,12 @@
     margin-right: 138px;
   }
 }
-.nav-list {
+.menu__item {
   list-style-type: none;
   display: flex;
   align-items: center;
 }
-.nav-links {
+.menu__link {
   font-size: 0.9375rem;
   line-height: 1.875rem;
   text-decoration: none;
@@ -75,8 +75,7 @@
   padding: 15px 0;
   text-transform: uppercase;
 }
-.nav-links:hover {
-  // color: $dark-grey;
+.menu__link:hover {
   color: $black;
 }
 #equipo {
@@ -90,4 +89,4 @@
   @media all and (min-width: 768px) {
     scroll-margin-top: 2.5em;
   }
-}
+}::-ms-clear

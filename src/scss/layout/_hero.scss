@@ -22,7 +22,7 @@
     background-image: url(".././images/hero_1200_2.jpg");
     }
   }
-  .div-slogan {
+  .hero__slogan {
     width: 100%;
     position: absolute;
     top: 370px;
@@ -36,7 +36,7 @@
       top: 495px;
     }
   }
-  .h2-slogan {
+  .hero__slogan--title {
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 1.125rem;
@@ -54,12 +54,12 @@
       margin: 0 0 0 138px;
     }
   }
-  .h2-slogan .div-slogan {
-    text-align: center;
-    position: relative;
-  }
+  // .hero__slogan--title .hero__slogan {
+  //   text-align: center;
+  //   position: relative;
+  // }
   // @media all and (min-width: 1200px) {
-  //   .div-hero {
+  //   .hero {
   //     margin:auto;
   //   }
   // }
