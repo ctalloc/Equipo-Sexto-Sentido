@@ -74,22 +74,31 @@
       width: 100%;
       // margin: 20px;
     }
-    .article-programadora2,
-    .article-programadora4 {
-      flex-direction: row-reverse;
+    //Eugenia y Cecilia
+    .article:nth-child(odd) {
+      
+    } 
+    //Adriana y Paula
+    .article:nth-child(even) {
+
     }
-    .article-programadora1 .next-to-img{
-      align-items: flex-start;
-    }
-    .article-programadora2 .next-to-img{
-      align-items: flex-end;
-    }
-    .article-programadora3 .next-to-img{
-      align-items: flex-start;
-    }
-    .article-programadora4 .next-to-img{
-      align-items: flex-end;
-    }
+   
+    // .article-programadora2,
+    // .article-programadora4 {
+    //   flex-direction: row-reverse;
+    // }
+    // .article-programadora1 .next-to-img{
+    //   align-items: flex-start;
+    // }
+    // .article-programadora2 .next-to-img{
+    //   align-items: flex-end;
+    // }
+    // .article-programadora3 .next-to-img{
+    //   align-items: flex-start;
+    // }
+    // .article-programadora4 .next-to-img{
+    //   align-items: flex-end;
+    // }
     .next-to-img { 
     margin-left: 45px;  
     margin-right: 45px;
