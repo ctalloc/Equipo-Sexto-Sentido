@@ -21,7 +21,7 @@
       top: 0px;
       }
   }
-/*  .about__container {
+/*  .equipo {
     margin-left: 15px;
     margin-right: 15px;
     border: 0;
@@ -36,7 +36,7 @@
     }
   }
 */
-  .equipo-title-container {
+  .equipo__title {
     line-height: 45px;
     font-family: $font-title;
     font-size: 1.5rem;
@@ -49,7 +49,7 @@
         margin-top: 45px;
     }
   }
-  .equipo-text {
+  .equipo__text {
     width: 100%;
     font-family: $font-text;
     font-size: 1rem;    
@@ -64,11 +64,11 @@
       margin-bottom: 60px;
     }
   }
-  .fortalezasydebilidades {
+  .FyD {
     width: 100%;
     background-color: $light-grey-blue;
   }
-  .container-fyd {
+  .FyD__container {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
@@ -86,29 +86,29 @@
       max-width: 1200px;
     }
   }
-  .item-fyd {
+  .FyD__item {
     margin-top: 30px;
     @media all and (min-width: 768px) {
       width: 50%;
       margin-top: 45px;
       margin-bottom: 60px;
-      &.item-fyd-fortalezas {
+      &.FyD__item__fortalezas {
         margin-right: 15px;
       }
-      &.item-fyd-debilidades {
+      &.FyD__item__debilidades {
         margin-left: 15px;
       }
     }
     @media all and (min-width: 1200px) {
-      &.item-fyd-fortalezas {
+      &.FyD__item__fortalezas {
         margin-right: 22.5px;
       }
-      &.item-fyd-debilidades {
+      &.FyD__item__debilidades {
         margin-left: 22.5px;
       }
     }
   }
-  .FyD-title-container {
+  .FyD__title {
     width: 100%;
     font-family: $font-title;
     font-size: 1.375rem;
@@ -120,7 +120,7 @@
       margin-bottom: 15px;
     }  
   }
-  .FyD-text-container {
+  .FyD__text{
     width: 100%;
     font-family: $font-text;
     font-size: 1rem;
