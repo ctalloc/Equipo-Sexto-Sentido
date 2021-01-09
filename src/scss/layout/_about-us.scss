@@ -1,3 +1,17 @@
+.container {
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 0;
+  @media all and (min-width: 768px) {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+  }
+} 
  /* ABOUT US*/
  .about {
     width: 100%;
@@ -7,25 +21,23 @@
       top: 0px;
       }
   }
-  .container {
+/*  .about__container {
     margin-left: 15px;
     margin-right: 15px;
     border: 0;
     @media all and (min-width: 768px) {
       margin-left: 45px;
       margin-right: 45px;
-      border: 0;
     }
     @media all and (min-width: 1200px) {
       margin-left: auto;
       margin-right: auto;
-      border: 0;
       max-width: 1200px;
     }
-
   }
+*/
   .equipo-title-container {
-    height: 45px;
+    line-height: 45px;
     font-family: $font-title;
     font-size: 1.5rem;
     font-weight: 500;    
@@ -42,7 +54,7 @@
     font-family: $font-text;
     font-size: 1rem;    
     text-align: center;
-    color: #54585a;
+    color: $dark-grey;
     margin-top: 15px;
     margin-bottom: 30px;
     @media all and (min-width: 768px) {
@@ -54,8 +66,7 @@
   }
   .fortalezasydebilidades {
     width: 100%;
-    background-color: #b8b8b9;
-    position: relative;
+    background-color: $light-grey-blue;
   }
   .container-fyd {
     display: flex;
@@ -68,20 +79,34 @@
       justify-content: space-between;
       margin-left: 45px;
       margin-right: 45px;
-      border: 0;
     }
     @media all and (min-width: 1200px) {
       margin-left: auto;
       margin-right: auto;
-      border: 0;
       max-width: 1200px;
     }
   }
   .item-fyd {
+    margin-top: 30px;
     @media all and (min-width: 768px) {
       width: 50%;
-      // margen o algo 1200
+      margin-top: 45px;
+      margin-bottom: 60px;
+      &.item-fyd-fortalezas {
+        margin-right: 15px;
       }
+      &.item-fyd-debilidades {
+        margin-left: 15px;
+      }
+    }
+    @media all and (min-width: 1200px) {
+      &.item-fyd-fortalezas {
+        margin-right: 22.5px;
+      }
+      &.item-fyd-debilidades {
+        margin-left: 22.5px;
+      }
+    }
   }
   .FyD-title-container {
     width: 100%;
@@ -90,24 +115,18 @@
     font-weight: 500;
     text-align: center;
     color: $blue-green;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    line-height: 45px;
     @media all and (min-width: 768px) {
-      margin-top: 45px;
-    }
+      margin-bottom: 15px;
+    }  
   }
   .FyD-text-container {
     width: 100%;
     font-family: $font-text;
-    font-size: 1rem;    
+    font-size: 1rem;
+    color: $dark-grey;  
     letter-spacing: normal;
     text-align: center;
-    margin-bottom: 15px;
-    @media all and (min-width: 768px) {
-      margin-bottom: 60px;
-    }
-    @media all and (min-width: 1200px) {
-    }
   }
   .debilidades {
     margin-bottom: 45px;
