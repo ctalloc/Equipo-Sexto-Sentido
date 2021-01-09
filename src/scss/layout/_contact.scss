@@ -1,0 +1,22 @@
+.FyD__text--small {
+    font-family: $font-text;
+    color: $grey;
+}
+.asterisk {
+    color: $aqua;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-text;
+    &__label {        
+        color: $dark-grey;
+    }
+    &__input {
+        color: $aqua;
+    }
+    &__textarea {
+        
+    }
+}
+
