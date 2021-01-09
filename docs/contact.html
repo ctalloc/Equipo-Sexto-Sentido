@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
@@ -25,7 +28,39 @@
       </nav>
     </header>
 
-  <form class="" action=""></form>
+  <section class="hero">
+    <div id="steam" class="div-img-hero"></div>
+    <div class="hero__slogan">
+      <h2 class="hero__slogan--title">
+        En ocasiones vemos código, que no es poco.
+      </h2>
+    </div>
+  </section>
+
+  <div class="FyD__item "><h2 class="FyD__title">Contacto</h2>
+    <p class="FyD__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+      tempore iure placeat nobis dicta provident, molestiae.</p>
+    <small class="FyD__text--small">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.</small>
+  </div>
+  <form class="form" action="" method="POST">
+    <label class="form__label" for="name"> Nombre completo <span class="asterisk">*</span></label>
+      <input class="form__input" id="name" type="text" placeholder="Nombre..." required />
+    
+    <label class="form__label" for="email">Email <span class="asterisk">*</span></label>
+      <input class="form__input"
+        id="email"
+        type="email"
+        placeholder="nombre.apellidos@mail.com"
+        required
+      />
+    
+    <label class="form__label" for="tel">Teléfono</label>
+      <input class="form__input" id="tel" type="tel" placeholder="Ej: 123456789" />
+    
+    <label class="form__label" for="comment">
+      Mensaje <span class="asterisk">*</span></label>
+      <textarea class="form__area" name="comment" id="comment" cols="30" rows="10" placeholder="¿Qué necesitas?"></textarea>
+  </form>
   <footer class="footer">
     <div class="copyright">
       <small> Equipo Sexto Sentido | Promoción Lee © 2020 </small>
