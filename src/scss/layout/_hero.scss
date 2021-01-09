@@ -3,7 +3,7 @@
     height: 420px;
     background-size: cover;
     background-position: center;
-    transition: background-image 2s ease-in-out;
+    transition: background-image 2.5s ease-in-out;
     background-image: url(".././images/hero_320.jpg");
     @media all and (min-width: 768px) {
       background-image: url(".././images/hero_768.jpg");

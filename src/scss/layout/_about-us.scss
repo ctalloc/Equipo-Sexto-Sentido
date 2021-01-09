@@ -23,19 +23,17 @@
   }
   .equipo-title-container {
     height: 45px;
-    font-family: "Rubik";
+    font-family: $font-title;
     font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 1.88;
+    font-weight: 500;    
     text-align: center;
     color: $aqua;
     margin-top: 30px;
   }
   .equipo-text {
     width: 100%;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
+    font-family: $font-text;
+    font-size: 1rem;    
     text-align: center;
     color: #54585a;
     margin-top: 15px;
@@ -53,7 +51,6 @@
     margin-right: 15px;
     border: 0;
     @media all and (min-width: 768px) {
-      display: flex;
       flex-direction: row;
       justify-content: space-between;
       margin-left: 45px;
@@ -61,9 +58,7 @@
       border: 0;
     }
     @media all and (min-width: 1200px) {
-      display: flex;
       flex-direction: row;
-      justify-content: space-between;
       margin-left: auto;
       margin-right: auto;
       border: 0;
@@ -72,10 +67,9 @@
   }
   .FyD-title-container {
     width: 100%;
-    font-family: "Rubik";
+    font-family: $font-title;
     font-size: 1.375rem;
     font-weight: 500;
-    line-height: 2.05;
     text-align: center;
     color: $blue-green;
     margin-top: 15px;
@@ -93,8 +87,8 @@
   }
   .FyD-text-container {
     width: 100%;
-    font-size: 1rem;
-    line-height: 1.5;
+    font-family: $font-text;
+    font-size: 1rem;    
     letter-spacing: normal;
     text-align: center;
     margin-top: 15px;
