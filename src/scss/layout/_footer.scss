@@ -1,6 +1,6 @@
 .footer {
-  border-top: 1px $light-grey-blue solid; 
-  font-family: "Open Sans", sans-serif;
+  border-top: 1px $cool-grey solid; 
+  font-family: $font-text;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,32 +16,25 @@
   }
 }
 .copyright {
-  /*width: 178px Debería de estar? no tiene medidas;*/
   height: 20px;
   margin: 0 0 20px;
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-text;
   font-size: 14px; 
   text-align: center;
-  color: #b8b8b9;
-  // color:$b8b8b9;
-
+  color: $cool-grey;
   @media all and (min-width: 768px) {
     margin-top: 30px;
     margin-left: 45px;
     width: 40%;
     text-align: left;
-    color: #b8b8b9;
-    // color:$b8b8b9;
      }
   @media all and (min-width: 1200px) {
-    margin-top: 30px;
     margin-left: 138px;
   }
   
 }
 .ulnav {
-  /*height: 60px debería de estar¿ no tiene medidas;*/
-  font-family: "Rubik-Medium", sans-serif;
+  font-family: $font-title;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -50,12 +43,6 @@
   opacity: 75%;
   font-size: 14px;
   line-height: 1.5;
-  @media all and (min-width: 768px) {
-      padding: 0;
-    }
-  @media all and (min-width: 1200px) {
-      padding: 0;
-    }
   }
 
 
@@ -63,25 +50,17 @@
   list-style-type: none;
   @media all and (min-width: 768px) {
     text-align: right;
-    list-style-type: none;
-    line-height: 30px;
-  }
-  @media all and (min-width: 1200px) {
-    text-align: right;
-    list-style-type: none;
     line-height: 30px;
   }
 }
 .afooter {
-  color: var(--dark-grey);
+  color: $dark-grey;
   text-transform: uppercase;
-  @media all and (min-width: 768px) {
+  padding: 0 15px;
+  &:hover {
     color: $dark-grey;
+    transition: $transitionLinks;
   }
-  @media all and (min-width: 1200px) {
-    color: $dark-grey;
-  }
-
 }
 .logo {
   margin-top: 30;
@@ -95,111 +74,29 @@
     left: 45px;
   }
   @media all and (min-width: 1200px) {
-    position: absolute;
-    top: 65px;
     left: 138px;
   }
 }
-
 .logofooter {
-  width: 115.9px;
+  width: 116px;
   height: 45px;
 }
-
-
-@media all and (min-width: 768px) {
-  /* foooter*/
-  // .footer {
-  //   flex-direction: row;
-  //   justify-content: space-between;
-  //   height: 160px;
-  // }
-  // .copyright {
-  //   margin-top: 30px;
-  //   margin-left: 45px;
-  //   width: 40%;
-  //   text-align: left;
-  //   color: #b8b8b9;
-  // }
-  // .navfooter {
-  //   width: 50%;
-  //   margin-right: 45px;
-  //   margin-top: 24px;
-  .navfooter {
+.navfooter {
+    @media all and (min-width: 768px) {
     width:50% ;
     margin-right: 45px;
     margin-top: 24px;
    }
-    
-  //ESTE de arriba COMO SERIA¿¿ }
-
-  // .ulnav {
-  //   padding: 0;
-  // }
-  .footerlist {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: #54855a;
-    // color:$54855a;
+   @media all and (min-width: 1200px) {
+    margin-top: 24px;
+    margin-right: 138px;
   }
-  // .listfooter {
-  //   text-align: right;
-  //   list-style-type: none;
-  //   line-height: 30px;
-  // }
-  // .afooter {
-  //   color: var(--dark-grey);
-  // }
-  // .logo {
-  //   position: absolute;
-  //   top: 65px;
-  //   left: 45px;
+  }
+  
 
-  //   Esto lo podemos borrar----/* width: 115px;
-  //   height: 45;
-  //   margin-left: 50px;
-  //   padding-bottom: 30px; */
-}
-@media all and (min-width: 1200px) {
-        /* flex-direction: row;
-         flex-wrap: wrap; 
-      justify-content: space-between; */
-      
-      // .copyright {
-      //   margin-top: 30px;
-      //   margin-left: 138px;
-      // }
-      .navfooter {
-        margin-top: 24px;
-        margin-right: 138px;
-        width: 50%;
-      }
     
-      // .ulnav {
-      //   padding: 0;
-      // }
-      .footerlist {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        color: #54855a;
-        // color:$54855a
-      }
-      // .listfooter {
-      //   text-align: right;
-      //   list-style-type: none;
-      //   line-height: 30px;
-      // }
-      // .afooter {
-      //   color: var(--dark-grey);
-      // }
-      // .logo {
-      //   position: absolute;
-      //   top: 65px;
-      //   left: 138px;
-      // }
-} 
+     
+
  
  
  
