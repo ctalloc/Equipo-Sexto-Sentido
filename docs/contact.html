@@ -34,8 +34,7 @@
     <div class="container contact__container"
       ><h2 class="FyD__title contact__title">Contacto</h2>
       <p class="FyD__text contact__text"
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-        tempore iure placeat nobis dicta provident, molestiae.</p
+        >¿Has tenido una visión de cómo querrías que fuera tu página web? ¿Un poltergeist merodea por tu browser? Rellena este formulario para contactar con nosotras. En el Equipo Sexto Sentido no tenemos miedo al código.</p
       >
       <small class="FyD__text--small"
         >Todos los campos marcados con <span class="asterisk">*</span> son
@@ -54,24 +53,29 @@
         required
       />
 
-      <label class="form__label" for="email"
-        >Email <span class="asterisk">*</span></label
-      >
-      <input
-        class="form__input"
-        id="email"
-        type="email"
-        placeholder="nombre.apellidos@mail.com"
-        required
-      />
-
-      <label class="form__label" for="tel">Teléfono</label>
-      <input
-        class="form__input"
-        id="tel"
-        type="tel"
-        placeholder="Ej: 123456789"
-      />
+      <div class="form__container--flex">
+        <div class="form__containerEmail">
+          <label class="form__label" for="email"
+            >Email <span class="asterisk">*</span></label
+          >
+          <input
+            class="form__input"
+            id="email"
+            type="email"
+            placeholder="nombre.apellidos@mail.com"
+            required
+          />
+        </div>
+        <div class="form__containerPhone">
+          <label class="form__label" for="tel">Teléfono</label>
+          <input
+            class="form__input"
+            id="tel"
+            type="tel"
+            placeholder="Ej: 123456789"
+          />
+        </div>
+      </div>
 
       <label class="form__label" for="comment">
         Mensaje <span class="asterisk">*</span></label
@@ -84,6 +88,7 @@
         rows="10"
         placeholder="¿Qué necesitas?"
       ></textarea>
+      <input type="submit" class="form__button" value="Enviar">
     </form>
     <footer class="footer">
       <div class="copyright">
@@ -91,16 +96,16 @@
       </div>
       <nav class="navfooter">
         <ul class="ulnav">
-          <li class="listfooter"><a class="afooter" href="./index.html#equipo">Equipo</a></li>
+          <li class="listfooter"><a class="afooter" href="./index.html#equipo" alt="Equipo">Equipo</a></li>
           <li class="listfooter">
-            <a class="afooter" href="./index.html#adalabers">Quiénes somos</a>
+            <a class="afooter" href="./index.html#adalabers" alt="Quiénes somos">Quiénes somos</a>
           </li>
-          <li class="listfooter"><a class="afooter" href="./contact.html">Contacto</a></li>
+          <li class="listfooter"><a class="afooter" href="./contact.html" alt="Ir al formulario de contacto">Contacto</a></li>
         </ul>
       </nav>
 
       <div class="logo">
-        <a href="https://adalab.es/" target="_blank"><img
+        <a alt="Ir a web de Adalab" href="https://adalab.es/" target="_blank"><img
             class="logofooter"
             src="./assets/images/logo-adalab.svg"
             alt="Logo Adalab"/></a>
