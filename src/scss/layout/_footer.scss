@@ -58,8 +58,8 @@
   padding: 0 15px;
   &:hover {
     color: $black;
-    transition: $transitionLinks;
     text-decoration: underline;
+    transition: $transitionLinks, text-decoration ease 0.5s;
   }
 }
 .logo {

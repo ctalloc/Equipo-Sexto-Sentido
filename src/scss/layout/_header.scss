@@ -13,29 +13,33 @@
     flex-direction: row;
     align-items: center;
   }
-}
-.header__link {
-  @include headerText();  
-  @include absoluteCenteredFlex();
-  margin-top: 15px;
-  @media all and (min-width: 768px) {
-    width: 100%;
-    margin: 15px 0 15px 45px;
-    justify-content: left;
+  &__link {
+    @include headerText();  
+    @include absoluteCenteredFlex();
+    margin-top: 15px;
+        &:hover {
+        color: $dark-grey;
+        transition: $transitionLinks;
+      }
+    @media all and (min-width: 768px) {
+      width: 100%;
+      margin: 15px 0 15px 45px;
+      justify-content: left;
+    }
+    @media all and (min-width: 1200px) {
+      margin-left: 138px;
+    }
   }
-  @media all and (min-width: 1200px) {
-    margin-left: 138px;
-  }
-}
-.header__nav {  
-  height: 45px;
-  background-color: $aqua;
-  opacity: 0.95;
-  @media all and (min-width: 768px) {
-    width: 70%;
-    background-color: $blue-green;
-    display: flex;
-    justify-content: flex-end;
+  &__nav {  
+    height: 45px;
+    background-color: $aqua;
+    opacity: 0.95;
+    @media all and (min-width: 768px) {
+      width: 70%;
+      background-color: $blue-green;
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 }
 .menu {
@@ -86,4 +90,3 @@
     scroll-margin-top: 6rem;
   }
 }
-//¿Poner misma clase a adalabers y equipo?
