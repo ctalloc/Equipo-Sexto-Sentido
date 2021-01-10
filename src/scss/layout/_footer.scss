@@ -58,8 +58,9 @@
   text-transform: uppercase;
   padding: 0 15px;
   &:hover {
-    color: $dark-grey;
+    color: $black;
     transition: $transitionLinks;
+    text-decoration: underline;
   }
 }
 .logo {

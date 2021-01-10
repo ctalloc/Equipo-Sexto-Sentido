@@ -23,6 +23,7 @@
   .nombre-adalaber {
     width: 200px;
     height: 45px;
+    font-family: $font-text;
     // margin: auto;
     font-size: 1.25rem; 
     line-height: 2.25;
@@ -32,6 +33,7 @@
   .bio { /*El borde de esta caja tiene que estar a 15px del borde izquierdo y derecho de la página .A.*/
     margin: 10px 0px;
     font-size: 1rem;
+    font-family: $font-text;
     // text-align: center;
     color: $dark-grey;
   }
