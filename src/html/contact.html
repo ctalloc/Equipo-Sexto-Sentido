@@ -24,8 +24,7 @@
     <div class="container contact__container"
       ><h2 class="FyD__title contact__title">Contacto</h2>
       <p class="FyD__text contact__text"
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-        tempore iure placeat nobis dicta provident, molestiae.</p
+        >¿Has tenido una visión de cómo querrías que fuera tu página web? ¿Un poltergeist merodea por tu browser? Rellena este formulario para contactar con nosotras. En el Equipo Sexto Sentido no tenemos miedo al código.</p
       >
       <small class="FyD__text--small"
         >Todos los campos marcados con <span class="asterisk">*</span> son
@@ -44,24 +43,29 @@
         required
       />
 
-      <label class="form__label" for="email"
-        >Email <span class="asterisk">*</span></label
-      >
-      <input
-        class="form__input"
-        id="email"
-        type="email"
-        placeholder="nombre.apellidos@mail.com"
-        required
-      />
-
-      <label class="form__label" for="tel">Teléfono</label>
-      <input
-        class="form__input"
-        id="tel"
-        type="tel"
-        placeholder="Ej: 123456789"
-      />
+      <div class="form__container--flex">
+        <div class="form__containerEmail">
+          <label class="form__label" for="email"
+            >Email <span class="asterisk">*</span></label
+          >
+          <input
+            class="form__input"
+            id="email"
+            type="email"
+            placeholder="nombre.apellidos@mail.com"
+            required
+          />
+        </div>
+        <div class="form__containerPhone">
+          <label class="form__label" for="tel">Teléfono</label>
+          <input
+            class="form__input"
+            id="tel"
+            type="tel"
+            placeholder="Ej: 123456789"
+          />
+        </div>
+      </div>
 
       <label class="form__label" for="comment">
         Mensaje <span class="asterisk">*</span></label
