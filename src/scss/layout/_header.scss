@@ -15,16 +15,8 @@
   }
 }
 .header__text {
-  font-family: $font-title;
-  font-weight: 500;
-  text-transform: uppercase;
-  font-size: 1rem;
-  line-height: 1.875rem;
-  color: $white;
-  text-align: center;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  @include headerText();  
+  @include absoluteCenteredFlex();
   margin-top: 15px;
   @media all and (min-width: 768px) {
     width: 50%;
@@ -63,10 +55,9 @@
     font-family: $font-title;
     font-size: 0.9375rem;
     line-height: 1.875rem;
-    text-decoration: none;
+    text-transform: uppercase;    
     color: $white;
-    padding: 15px 0;
-    text-transform: uppercase;
+    padding: 15px 0;    
     &:hover {
       color: $black;
       transition: color ease 1s;
@@ -83,16 +74,17 @@
 }
 
 #equipo {
-  scroll-margin-top: 4.2em;
+  scroll-margin-top: 9rem;
   @media all and (min-width: 768px) {
-    scroll-margin-top: 4em;
+    scroll-margin-top: 6rem;
     //em afecta al tamaño de fuente del contenedor directo. En este caso sería de 24px; 
+    //rem se define por el tamaño de fuente de HTML, que sería 16px;
   }
 }
 #adalabers {
-  scroll-margin-top: 4.2em;
+  scroll-margin-top: 9rem;
   @media all and (min-width: 1200px) {
-    scroll-margin-top: 4em;
+    scroll-margin-top: 6rem;
   }
 }
 //¿Poner misma clase a adalabers y equipo?
