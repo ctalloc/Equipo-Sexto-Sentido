@@ -37,7 +37,7 @@
     }
   }
   .hero__slogan--title {
-    font-family: 'Open Sans';
+    font-family: $font-text;
     font-weight: 600;
     font-size: 1.125rem;
     line-height: 1.563rem;
@@ -54,12 +54,3 @@
       margin: 0 0 0 138px;
     }
   }
-  // .hero__slogan--title .hero__slogan {
-  //   text-align: center;
-  //   position: relative;
-  // }
-  // @media all and (min-width: 1200px) {
-  //   .hero {
-  //     margin:auto;
-  //   }
-  // }
