@@ -1,6 +1,9 @@
 .FyD__text--small {
     font-family: $font-text;
     color: $grey;
+    display: block;
+    text-align: center;
+    margin-bottom: 58px;
 }
 .asterisk {
     color: $aqua;
@@ -19,4 +22,27 @@
         
     }
 }
-
+.container.contact__container {
+    position: relative;
+    @media all and (min-width: 768px) {
+        top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 442px;
+      }
+      @media all and (min-width: 1200px) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 601px;
+      }
+}
+.FyD__title.contact__title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+      @media all and (min-width: 1200px) {
+        margin-top: 45px;
+      }
+}
+.FyD__text.contact__text {
+    margin-bottom: 30px;
+}
