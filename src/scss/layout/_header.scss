@@ -11,15 +11,15 @@
   @media all and (min-width: 768px) {
     height: 60px;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
   }
 }
-.header__text {
+.header__link {
   @include headerText();  
   @include absoluteCenteredFlex();
   margin-top: 15px;
   @media all and (min-width: 768px) {
-    width: 50%;
+    width: 100%;
     margin: 15px 0 15px 45px;
     justify-content: left;
   }
@@ -27,12 +27,12 @@
     margin-left: 138px;
   }
 }
-.header__nav {
-  width: 100%;
+.header__nav {  
   height: 45px;
   background-color: $aqua;
   opacity: 0.95;
   @media all and (min-width: 768px) {
+    width: 70%;
     background-color: $blue-green;
     display: flex;
     justify-content: flex-end;
@@ -42,8 +42,7 @@
   height: 45px;
   padding-left: 0;
   margin: 0;
-  display: flex;
-  flex-direction: row;
+  display: flex;  
   justify-content: space-around;
   align-content: center;
   &__item {
@@ -53,14 +52,15 @@
   }
   &__link {
     font-family: $font-title;
+    font-weight: 500;
     font-size: 0.9375rem;
     line-height: 1.875rem;
     text-transform: uppercase;    
     color: $white;
     padding: 15px 0;    
     &:hover {
-      color: $black;
-      transition: color ease 1s;
+      color: $dark-grey;
+      transition: $transitionLinks;
     }
   }
   @media all and (min-width: 768px) {
@@ -72,7 +72,6 @@
     margin-right: 138px;
   }
 }
-
 #equipo {
   scroll-margin-top: 9rem;
   @media all and (min-width: 768px) {

@@ -9,11 +9,14 @@ $aqua: #14d9c4;
 $blue-green: #099d8d;
 $light-grey-blue: #b8b8b9;
 $grey: #727272;
+$cool-grey: #b8b8b9;
 $dark-grey: #54585a;
-
-//solo variables para colors y font
 
 // margins ¿?¿?¿?
 $marginMobile: 15px;
 $marginTablet: 45px;
 $marginDesktop: 138px;
+
+//transitions
+$transitionLinks: color ease 1s;
+$transitionHero: background-image 2.5s ease-in-out;

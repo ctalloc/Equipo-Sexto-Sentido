@@ -5,40 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Adalab Web Starter Kit</title>
     <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@400;500;600&display=swap"
-    rel="stylesheet"
-  />
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
 
   <body>
-  <include src="./partials/header.html" linkEquipo="./index.html#equipo" linkAdalabers="./index.html#adalabers" linkContact="./contact.html"  ></include>
-  <include src="./partials/hero.html"></include>
-  <div class="container contact__container"><h2 class="FyD__title contact__title">Contacto</h2>
-    <p class="FyD__text contact__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-      tempore iure placeat nobis dicta provident, molestiae.</p>
-    <small class="FyD__text--small">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.</small>
-  </div>
-  <form class="form container contact__container" action="" method="POST">
-    <label class="form__label" for="name"> Nombre completo <span class="asterisk">*</span></label>
-      <input class="form__input" id="name" type="text" placeholder="Nombre..." required />
-    
-    <label class="form__label" for="email">Email <span class="asterisk">*</span></label>
-      <input class="form__input"
+    <include
+      src="./partials/header.html"
+      linkIndex="./index.html#steam"
+      linkEquipo="./index.html#equipo"
+      linkAdalabers="./index.html#adalabers"
+      linkContact="./contact.html"
+    ></include>
+    <include src="./partials/hero-contact.html"></include>
+    <div class="container contact__container"
+      ><h2 class="FyD__title contact__title">Contacto</h2>
+      <p class="FyD__text contact__text"
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+        tempore iure placeat nobis dicta provident, molestiae.</p
+      >
+      <small class="FyD__text--small"
+        >Todos los campos marcados con <span class="asterisk">*</span> son
+        obligatorios.</small
+      >
+    </div>
+    <form class="form container contact__container" action="" method="POST">
+      <label class="form__label" for="name">
+        Nombre completo <span class="asterisk">*</span></label
+      >
+      <input
+        class="form__input"
+        id="name"
+        type="text"
+        placeholder="Nombre..."
+        required
+      />
+
+      <label class="form__label" for="email"
+        >Email <span class="asterisk">*</span></label
+      >
+      <input
+        class="form__input"
         id="email"
         type="email"
         placeholder="nombre.apellidos@mail.com"
         required
       />
-    
-    <label class="form__label" for="tel">Teléfono</label>
-      <input class="form__input" id="tel" type="tel" placeholder="Ej: 123456789" />
-    
-    <label class="form__label" for="comment">
-      Mensaje <span class="asterisk">*</span></label>
-      <textarea class="form__area" name="comment" id="comment" cols="30" rows="10" placeholder="¿Qué necesitas?"></textarea>
-  </form>
-  <include src="./partials/footer.html" linkEquipo="./index.html#equipo" linkAdalabers="./index.html#adalabers" linkContact="./contact.html" ></include>
+
+      <label class="form__label" for="tel">Teléfono</label>
+      <input
+        class="form__input"
+        id="tel"
+        type="tel"
+        placeholder="Ej: 123456789"
+      />
+
+      <label class="form__label" for="comment">
+        Mensaje <span class="asterisk">*</span></label
+      >
+      <textarea
+        class="form__area"
+        name="comment"
+        id="comment"
+        cols="30"
+        rows="10"
+        placeholder="¿Qué necesitas?"
+      ></textarea>
+    </form>
+    <include
+      src="./partials/footer.html"
+      linkEquipo="./index.html#equipo"
+      linkAdalabers="./index.html#adalabers"
+      linkContact="./contact.html"
+    ></include>
   </body>
 </html>
