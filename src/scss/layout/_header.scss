@@ -13,6 +13,16 @@
     flex-direction: row;
     align-items: center;
   }
+  &__container {
+	  @media all and (min.width: 768px) {
+		  max-width: 800px;
+		  margin: auto;
+	  }
+	  @media all and (min.width: 1200px) {
+		max-width: 1200px;
+		
+	}
+  }
   &__link {
     @include headerText();  
     @include absoluteCenteredFlex();
@@ -33,10 +43,14 @@
   &__nav {  
     height: 45px;
     background-color: $aqua;
-    opacity: 0.95;
+	opacity: 0.95;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
     @media all and (min-width: 768px) {
       width: 70%;
-      background-color: $blue-green;
+	  background-color: $blue-green;
+	  position: static;
       display: flex;
       justify-content: flex-end;
     }
