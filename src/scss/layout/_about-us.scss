@@ -37,6 +37,7 @@
   }
 */
 .equipo__title {
+  scroll-margin-top: 9rem;
   line-height: 45px;
   font-family: $font-title;
   font-size: 1.5rem;
@@ -48,6 +49,7 @@
   @media all and (min-width: 768px) {
     color: $blue-green;
     margin-top: 45px;
+    scroll-margin-top: 6rem;
   }
 }
 .equipo__text {

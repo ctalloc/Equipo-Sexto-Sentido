@@ -8,6 +8,7 @@
   }
 }
 .quienes-somos {
+  scroll-margin-top: 9rem;
   font-family: $font-title;
   font-size: 1.5rem;
   line-height: 1.88;
@@ -21,6 +22,7 @@
   @media all and (min-width: 768px) {
     margin-bottom: 40px;
     margin-top: 45px;
+    scroll-margin-top: 6rem;
   }
 }
 
