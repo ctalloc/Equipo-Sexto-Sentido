@@ -1,73 +1,74 @@
 .steam {
-  width: auto;
-  height: 420px;
-  background-size: cover;
-  background-position: center;
-  transition: $transitionHero;
-  background-image: url(".././images/hero_320.jpg");
-  @media all and (min-width: 768px) {
-    background-image: url(".././images/hero_768.jpg");
-  }
-  @media all and (min-width: 1200px) {
-    height: 550px;
-    background-image: url(".././images/hero_1200.jpg");
-  }
-  &:hover {
-    background-image: url(".././images/hero_320_2.jpg");
-    @media all and (min-width: 768px) {
-      background-image: url(".././images/hero_768_2.jpg");
-    }
-    @media all and (min-width: 1200px) {
-      background-image: url(".././images/hero_1200_2.jpg");
-    }
-  }
+	width: auto;
+	height: 420px;
+	background-size: cover;
+	background-position: center;
+	transition: $transitionHero;
+	background-image: url(".././images/hero_320.jpg");
+	@media all and (min-width: 768px) {
+		background-image: url(".././images/hero_768.jpg");
+	}
+	@media all and (min-width: 1200px) {
+		height: 550px;
+		background-image: url(".././images/hero_1200.jpg");
+	}
+	&:hover {
+		background-image: url(".././images/hero_320_2.jpg");
+		@media all and (min-width: 768px) {
+			background-image: url(".././images/hero_768_2.jpg");
+		}
+		@media all and (min-width: 1200px) {
+			background-image: url(".././images/hero_1200_2.jpg");
+		}
+	}
 }
 
-.hero__img--contact {
-  width: auto;
-  height: 420px;
-  background-size: cover;
-  background-position: center;
-  background-image: url(".././images/hero_320_contact.jpg");
-  transition: $transitionHero;
-  @media all and (min-width: 768px) {
-    background-image: url(".././images/hero_768_contact.jpg");
-  }
-  @media all and (min-width: 1200px) {
-    height: 550px;
-    background-image: url(".././images/hero_1200_contact.jpg");
-  }
-}
-.hero__slogan {
-  width: 100%;
-  position: absolute;
-  top: 370px;
-  left: 0px;
-  z-index: 1000;
-  @media all and (min-width: 768px) {
-    width: auto;
-    top: 365px;
-  }
-  @media all and (min-width: 1200px) {
-    top: 495px;
-  }
-  &--title {
-    font-family: $font-text;
-    font-weight: 600;
-    font-size: 1.125rem;
-    line-height: 1.563rem;
-    text-align: center;
-    padding: 15px;
-    margin: 15px;
-    background-color: $white;
-    @media all and (min-width: 768px) {
-      text-align: left;
-      margin: 0 0 0 45px;
-      opacity: 0.8;
-    }
-    @media all and (min-width: 1200px) {
-      margin: 0 0 0 138px;
-    }
-  }
-  
+.hero {
+	&__slogan {
+		width: 100%;
+		position: absolute;
+		top: 370px;
+		left: 0px;
+		z-index: 1000;
+		@media all and (min-width: 768px) {
+			width: auto;
+			top: 365px;
+		}
+		@media all and (min-width: 1200px) {
+			top: 495px;
+		}
+		&--title {
+			font-family: $font-text;
+			font-weight: 600;
+			font-size: 1.125rem;
+			line-height: 1.563rem;
+			text-align: center;
+			padding: 15px;
+			margin: 15px;
+			background-color: $white;
+			@media all and (min-width: 768px) {
+				text-align: left;
+				margin: 0 0 0 45px;
+				opacity: 0.8;
+			}
+			@media all and (min-width: 1200px) {
+				margin: 0 0 0 138px;
+			}
+		}
+	}
+	&__img--contact {
+		width: auto;
+		height: 420px;
+		background-size: cover;
+		background-position: center;
+		background-image: url(".././images/hero_320_contact.jpg");
+		transition: $transitionHero;
+		@media all and (min-width: 768px) {
+			background-image: url(".././images/hero_768_contact.jpg");
+		}
+		@media all and (min-width: 1200px) {
+			height: 550px;
+			background-image: url(".././images/hero_1200_contact.jpg");
+		}
+	}
 }
