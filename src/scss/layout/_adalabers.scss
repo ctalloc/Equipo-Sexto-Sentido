@@ -1,17 +1,27 @@
 .section-adalabers {
   width: 100%;
   background-color: $white;
+  position: relative;
+  top: 50px;
+  @media all and (min-width: 768px) {
+    top: 0px;
+  }
 }
 .quienes-somos {
   font-family: $font-title;
   font-size: 1.5rem;
   line-height: 1.88;
   text-align: center;
-  color: $aqua;
+  color: $blue-green;
   line-height: 45px;
   font-weight: 500;
   text-transform: uppercase;
   margin-top: 30px;
+  margin-bottom: 30px;
+  @media all and (min-width: 768px) {
+    margin-bottom: 40px;
+    margin-top: 45px;
+  }
 }
 
 .imagen-adalaber {
