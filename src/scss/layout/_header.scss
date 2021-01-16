@@ -39,20 +39,18 @@
 	}
 	&__text--animation {
 		animation: fadeIn ease 6s;
-		
-		
 	}
 	@keyframes fadeIn {
 		0% {
 			opacity: 0;
 		}
 		50% {
-      opacity: 0.5;
-      transform: scale(2);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1);
+			opacity: 0.5;
+			transform: scale(2);
+		}
+		100% {
+			opacity: 1;
+			transform: scale(1);
 		}
 	}
 
