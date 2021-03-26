@@ -27,18 +27,67 @@
 }
 
 .imagen-adalaber {
-  width: 180px;
-  height: 180px;
   border-radius: 4px;
-  border: solid 5px rgba(0, 0, 0, 0.08);
+  border: solid 5px $cool-grey;
+}
+
+.eugenia {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.8s ease;
+  background-image: url('.././images/eugenia.jpg');
+
+  &:hover {
+    background-image: url('.././images/eugenia_ghost.png');
+  }
+}
+.adriana {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.8s ease;
+  background-image: url('.././images/adriana.jpg');
+
+  &:hover {
+    background-image: url('.././images/adriana_ghost.png');
+  }
+}
+.cecilia {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.8s ease;
+  background-image: url('.././images/cecilia.jpg');
+  &:hover {
+    background-image: url('.././images/cecilia_ghost.png');
+  }
+}
+.paula {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.8s ease;
+  background-image: url('.././images/paula.jpg');
+  &:hover {
+    background-image: url('.././images/paula_ghost.png');
+  }
 }
 .nombre-adalaber {
   font-family: $font-text;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.25rem;
   line-height: 2.25;
   text-align: center;
-  color: $black;
+  color: $dark-grey;
 }
 .bio {
   font-size: 1rem;
@@ -70,7 +119,7 @@ a {
 }
 
 @media all and (min-width: 768px) {
-  .section-adalabers{
+  .section-adalabers {
     margin-bottom: 60px;
   }
   .article {
@@ -86,10 +135,8 @@ a {
   .article:nth-child(odd) {
     flex-direction: row-reverse;
   }
-  //Eugenia y Cecilia
-  .article:nth-child(even) {
-  }
   .next-to-img {
+    width: 56%;
     margin-left: 45px;
     margin-right: 45px;
     &-odd {
@@ -110,16 +157,20 @@ a {
   }
 }
 
-@media all and (min-width: 1200px) {
-
-  .article{
-     max-width: 760px;
-     margin: auto;
+.iconTwist {
+  transition: all 1s ease;
+  &:hover {
+    transform: rotate(-360deg);
+    color: $dark-yellow;
   }
-  // .imagen-adalaber:nth-child(even){
-  //   margin-left: 138px;
-  // }
-  // .imagen-adalaber:nth-child(odd){
-  //   margin-right: 138px;
-  // }
+}
+
+@media all and (min-width: 1200px) {
+  .article {
+    max-width: 760px;
+    margin: auto;
+  }
+  .next-to-img {
+    width: 66%;
+  }
 }
