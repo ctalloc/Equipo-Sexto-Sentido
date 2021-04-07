@@ -10,15 +10,15 @@ Throughout the creation of this website we learned how to use and applied the fo
     -NPM
     -GULP + template engines
     -SASS
-    
+
 We also learned some fun features like GRID , FLEXBOX, transitions and animations!
 
 ## Structure
 
 The website includes a main page where you can learn about us as a team and as individuals.
 
-![Gif of our Main Page](src\images\main.gif)
+![Gif of our Main Page](https://imgur.com/ToIdzs4)
 
 On the navigator bar of this main page you can find links to the different sections and a link to another page, where you can fill a contact form. 
 
-![Gif of our Contact Form](src\images\form.gif)
+![Gif of our Contact Form](https://imgur.com/BndGbYv)
