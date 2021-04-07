@@ -17,8 +17,8 @@ We also learned some fun features like GRID , FLEXBOX, transitions and animation
 
 The website includes a main page where you can learn about us as a team and as individuals.
 
-![Gif of our Main Page](https://imgur.com/ToIdzs4)
+![Gif of our Main Page](https://i.imgur.com/ToIdzs4.mp4)
 
 On the navigator bar of this main page you can find links to the different sections and a link to another page, where you can fill a contact form. 
 
-![Gif of our Contact Form](https://imgur.com/BndGbYv)
+![Gif of our Contact Form](https://i.imgur.com/BndGbYv.gif)
