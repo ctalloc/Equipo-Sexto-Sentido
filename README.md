@@ -5,11 +5,11 @@ Equipo Sexto Sentido is the name of our first website created in collaboration w
 ## Tools
 
 Throughout the creation of this website we learned how to use and applied the following tools:
-    - HTML5
-    - CSS
-    - NPM
-    - GULP + template engines
-    - SASS
+- HTML5
+- CSS
+- NPM
+- GULP + template engines
+- SASS
 
 We also learned some fun features like GRID , FLEXBOX, transitions and animations!
 
